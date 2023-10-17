@@ -1,0 +1,213 @@
+.company .landing{
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url('/assets/companyBG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.company .landing .info img{
+    margin: 10px auto;
+}
+.company .landing .info h2 {
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+    padding: 45px 0 25px;
+    font-weight: 700;
+}
+.company .landing .info p {
+    font-weight: 300;
+    width: 50%;
+    margin: 30px auto;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 70px;
+}
+.main-header{
+    font-size: 24px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding: 18px 0;
+    margin-bottom: 38px;
+}
+.main-header.mc{
+    font-size: 32px;
+
+}
+.main-header::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background: #65D6E8;
+    bottom: 6px;
+    left: 0;
+}
+.company .thecompany img {
+    width: 50%;
+    margin-top: 80px;
+    margin-right: -40px;
+}
+.company .thecompany p {
+    font-size: 16px;
+    color: #000;
+    line-height: 32px;
+    /* margin-top: 45px; */
+}
+.company .thecompany ul {
+    list-style:disc;
+    margin-left: 20px;
+}
+.company .thecompany ul  li {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.company .leaders {
+    background: #F5FCFF;
+    border-top: 1px solid #CECECE;
+    padding: 100px 0;
+    margin-bottom: 50px;
+  
+
+}
+.company .leaders > div > section > img {
+    margin: 4px auto 15px;
+}
+
+.company .leaders > div > section h2 {
+    font-size: 32px;
+    padding: 20px 0 14px;
+    margin-bottom: 0;
+}
+.company .leaders > div > section p
+{color: #9e9e9e;
+    font-size: 16px;
+}
+.company .leaders .cards{
+    display: flex;
+    padding: 0 80px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.company .leaders .cards .card{
+flex-basis: calc(100% / 3 - 10px);
+padding-right: 20px;
+padding-left: 20px;
+position: relative;
+margin-bottom: 50px;
+}
+.company .leaders .cards .card > img {
+    border-radius: 50%;
+    width: 139px;
+    height: 139px;
+    margin: 2px auto;
+}
+.company .leaders .cards .card:not(:last-of-type){
+    border-right: 1px solid #D5E5EC;
+}
+.company .leaders .cards .card h3{
+    font-size: 22px;
+    color: #000;
+    margin-top: 32px;
+}
+.company .leaders .cards .card  span 
+{color: #959595;
+    font-size: 14px;}
+
+
+    
+.company .leaders .cards .card p {
+    text-align: left;
+    color: #444;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 57px;
+}
+.company .leaders .cards .card ul {
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.swiper-wrapper > div {
+    text-align: center;
+}
+.company .products > div > section > img {
+    margin: 10px auto 10px;
+}
+.company .products > div > section > h2 {
+    font-size: 32px;
+    padding: 20px 0 14px;
+    margin-bottom: 0;
+}
+.company .products > div > section > span {
+    color: #9E9E9E;
+    font-size: 16px;
+
+}
+.company .products .mySwiper{
+    margin-top: 100px;
+    width: 80%;
+    padding-top: 40px;
+    margin-bottom: 150px;
+    border-top: 1px solid #E6E6E6;
+}
+.swiper-button-prev,  .swiper-button-next {
+   
+    top: 50%;
+    color: #0077FF;
+    transform: translateY(50%);
+}
+.company .products .mySwiper img {
+    width: 60px;
+}
+.nav-link{
+    /* width: 160px;
+    height: 42px; */
+    width: fit-content;
+    border: 1px solid #0077FF;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    padding: 8px 26px;
+    gap: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: #0077FF;
+    background: #fff;
+    /* line-height: 40px; */
+
+    margin-top: 20px;
+    transition: all 0.3s ease 0s;
+}
+.company .dynamic-sec{
+    width: 70%;
+    margin: 70px auto 70px;
+}
+.company .dynamic-sec > div:first-of-type {
+    flex-basis: 25%;
+    text-align: center;
+}
+.company .dynamic-sec > div:first-of-type img {
+    margin: 10px auto 22px;
+}
+.company .dynamic-sec > div:first-of-type span 
+{color: #4B4B4B;
+font-size: 14px;}
+.company .dynamic-sec > div:last-of-type {
+    flex-basis: 70%;
+    text-align: left;
+}
+.company .dynamic-sec > div:last-of-type p 
+{color: #2C3F47;
+    font-size: 18px;
+    line-height: 36px;}
+/* //////////////////// */

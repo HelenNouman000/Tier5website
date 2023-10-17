@@ -1,0 +1,223 @@
+.mainpage .landing {
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url('/assets/61ee454fdcb00_latestBack.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing .land-header{
+  font-size: 82px;
+  margin-top: 160px;
+  margin-bottom: 10px;
+} 
+.sec-btn {
+  border-radius: 3px;
+  color: black;
+  font-size: 16px;
+  padding: 18px 70px;
+  outline-offset: -2px;
+  background-color: rgb(101, 214, 232);
+  border-color: transparent;
+  margin-top: 40px;
+  font-weight:500;
+  transition: 0.5s;
+}
+.sec-btn:hover{
+  background-color: black;
+  color: white;
+}
+.ex-up{
+  width: 50%;
+  margin: 6px auto;
+}
+.experince .ex-header{
+  margin-bottom: 35px;
+  outline-offset: -2px;
+  font-size: 48px;
+  color: rgb(62, 62, 62);
+  font-weight: bold;
+}
+.experince .ex-parag{
+  margin-bottom: 35px;
+    outline-offset: -2px;
+    font-size: 16px;
+    color: rgb(172, 176, 177);
+    font-weight: bold;
+}
+.item-list .item h5 {
+  color: #4b4b4b;
+  font-size: 17px;
+  margin: 24px 0 0;
+  font-weight: 600;
+}
+.count-section{
+  background: #D3DCE9 url(https://geniuspages.io/images/uploads/669/5feb5e338f4bd_chirply_icon_water_mark.png) no-repeat right 0 top 0 / auto 100%;
+    border-top: 1px solid #C2CCDB;
+    border-bottom: 1px solid #C2CCDB;
+    padding: 100px 12%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.count-section > div{
+  position: relative;
+}
+.count-section > div span{
+  color: #4b4b4b;
+  font-size: 13px;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.count-section > div h3{
+  display: block;
+    font-size: 42px;
+    color: #000;
+    font-weight: 700;
+}
+.count-section > div:not(:last-of-type)::after{
+position: absolute;
+content: '';
+width: 1px;
+height: 100%;
+background-color: rgba(0,0,0,.1);;
+right: -50%;
+top: 50%;
+transform: translate(50% , -50%);
+}
+.owners .leftSideImg{
+max-width: 510px !important;
+}
+.owner-up .overImg {
+  display: flex;
+  justify-content: flex-end
+}
+.owner-up .owner-info{
+padding: 0 100px;
+}
+.owner-up .owner-info h2{
+  font-size: 40px;
+  padding: 0 52px;
+color: rgb(62, 62, 62);
+line-height: 1.4;
+margin-bottom: 50px;
+}
+.owner-up .owner-info p {
+  text-align: center;
+  color: #2c3f47;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+
+}
+.owner-up .owner-info img{
+  margin: 50px auto 60px;
+}
+.partner .part-header{
+  font-size: 30px;
+  color: #000;
+  margin-top: 40px;
+  font-weight: bold;
+  width: 40%;
+  line-height: 1.2;
+
+}
+.partner .part-header b {
+  font-weight: 900 !important;
+  font-size: 43px
+}
+.partner p{
+  color: #5a5a5a;
+    font-size: 16px;
+    margin-top: 40px;
+    width:70%;
+}
+.partner button{
+  padding: 12px 55px ;
+}
+footer p {
+  color: rgb(62, 62, 62);
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+footer ul li{
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+footer ul li:hover{
+  text-decoration: underline;
+}
+.menu{
+  /* top: 0;
+  height: 100%;
+  right: 0;
+  width: 0;
+  transition: 0.5s;
+  display: none;
+  background-color: #000; */
+  top: 0;
+  height: 100%;
+z-index: 100;
+  transition: 0.5s;
+  position: fixed;
+  text-align: left;
+  overflow: scroll;
+}
+.menuactive{
+  right: 0 ;
+  width: 380px;
+    padding: 30px 70px;
+
+}
+.menunoactive{
+  right: 0 ;
+  width: 0;
+  padding: 0;
+}
+.menu img {
+  float: right;
+}
+.menu ul {
+  margin-top: 40px;
+}
+.menu ul li {
+  margin-bottom: 16px;
+  color: rgb(62, 62, 62);
+  font-weight: 500;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.menu ul li:hover{
+  color: #337ab7;
+  margin-left: 13px;
+}
+.menu .number {
+  margin-top: 50px;
+}
+.menu .number span {
+  color: #a2a2a2;
+  font-size: 14px;
+}
+.menu .number h3{
+  color: #000;
+    font-size: 28px;
+    font-weight: 800;
+}
+.learn-more2 {
+  background: #65d6e8;
+  color: #000;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 30px;
+  font-weight: 400;
+padding: 14px 50px;
+transition: 0.3s;
+}
+.learn-more2:hover{
+  background-color: black;
+  color: #65d6e8;
+}

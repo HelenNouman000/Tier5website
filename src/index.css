@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+@font-face {
+  font-family:'Open Sans' ;
+  src: url('../fonts/OpenSans-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family:'Open Sans' ;
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family:'Open Sans' ;
+  src: url('../fonts/OpenSans-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family:'Open Sans' ;
+  src: url('../fonts/OpenSans-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family:'Open Sans' ;
+  src: url('../fonts/OpenSans-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family:'Open Sans' ;
+  src: url('../fonts/OpenSans-ExtraBold.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+.learn-more-btn{
+  border: 1px solid rgb(0, 117, 251);
+  background-color: rgb(255, 255, 255);
+  font-size: 17px;
+  color: rgb(0, 117, 251);
+  padding:10px 40px;
+  border-radius: 60px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.learn-more-btn:hover{
+background-color: rgb(0, 117, 251);
+color: white;
+}

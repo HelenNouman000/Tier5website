@@ -1,0 +1,58 @@
+.technology .landing{
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url('/assets/technologyBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.technology .landing .main-section h2 {
+    font-size: 50px;
+}
+.technology .landing .main-section p {
+    width: 50%;
+    margin: 45px auto 75px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+/* .technology .landing .main-section a {
+    background: #65d6e8;
+    color: #000;
+    font-size: 16px;
+ 
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+padding: 14px 50px;
+} */
+.technology .info-main {
+    background: url(https://geniuspages.io/images/uploads/2780/60095da8921b3_techGraphic1.png) no-repeat left bottom 25% / 500px auto, url(https://geniuspages.io/images/uploads/2780/60095db376e72_techGraphic2.png) no-repeat right bottom -2% / 360px auto;
+
+}
+.technology .info-main >div > div > section:first-of-type {
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+}
+.technology .info-main > div > div > section:last-of-type {
+    padding-bottom: 250px;
+}
+.technology .info-main > div > div > section:last-of-type span:first-of-type {
+    display: block;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 6px;
+}
+.technology .info-main > div > div > section:last-of-type h2 {
+    font-size: 27px;
+    line-height: 35px;
+    color: #000;
+    margin-bottom: 6px;
+
+}
+.technology .info-main > div > div > section:last-of-type h2 + span , .g-parag {
+    display: block;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 50px;
+}
