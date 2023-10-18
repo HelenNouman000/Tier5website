@@ -7,6 +7,9 @@ import {Routes, Route} from 'react-router-dom';
 import MainPage from './pages/MainPage'
 import Technology from './pages/Technology';
 import Company from './pages/Company';
+import HelpingHands from './pages/HelpingHands';
+import InternShip from './pages/InternShip';
+import Partners from './pages/Partners';
 function App() {
 
   return (
@@ -15,6 +18,9 @@ function App() {
     <Route path='/' element={<MainPage />} />
     <Route path='/technology' element={<Technology />} />
     <Route path='/company' element={<Company />} />
+    <Route path='/helping_hands' element={<HelpingHands />} />
+    <Route path='/internship' element={<InternShip />} />
+    <Route path='/partners' element={<Partners />} />
 </Routes>
 </div>
 

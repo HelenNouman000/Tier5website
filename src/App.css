@@ -150,7 +150,7 @@ footer ul li{
 footer ul li:hover{
   text-decoration: underline;
 }
-.menu{
+.sidemenu{
   /* top: 0;
   height: 100%;
   right: 0;
@@ -177,31 +177,31 @@ z-index: 100;
   width: 0;
   padding: 0;
 }
-.menu img {
+.sidemenu img {
   float: right;
 }
-.menu ul {
+.sidemenu ul {
   margin-top: 40px;
 }
-.menu ul li {
+.sidemenu ul li {
   margin-bottom: 16px;
   color: rgb(62, 62, 62);
   font-weight: 500;
   transition: 0.4s;
   cursor: pointer;
 }
-.menu ul li:hover{
+.sidemenu ul li:hover{
   color: #337ab7;
   margin-left: 13px;
 }
-.menu .number {
+.sidemenu .number {
   margin-top: 50px;
 }
-.menu .number span {
+.sidemenu .number span {
   color: #a2a2a2;
   font-size: 14px;
 }
-.menu .number h3{
+.sidemenu .number h3{
   color: #000;
     font-size: 28px;
     font-weight: 800;
@@ -220,4 +220,39 @@ transition: 0.3s;
 .learn-more2:hover{
   background-color: black;
   color: #65d6e8;
+}
+.modal-box{
+  position: relative;
+  overflow-y: visible !important;
+}
+.modal-box form .content .head > div {
+  width: 463px !important;
+  height: 298px !important;
+}
+.modal-box form .content .head .close {
+  position: absolute;
+  top: -10px;
+  background-color: #e7593a;
+  border-radius: 50%;
+  padding: 6px;
+  right: -7px;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.modal-box form .content .head .close img {
+  width: 15px;
+  height: 15px;
+}
+
+@media (max-width: 488px) {
+  footer ul:first-of-type{
+    flex-wrap: wrap;
+  }
+  .navBar >a > img{
+    width: 190px;
+  }
 }

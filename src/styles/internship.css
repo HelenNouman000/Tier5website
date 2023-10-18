@@ -1,0 +1,199 @@
+.internship .landing  {
+    background-image: url('/assets/internship.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.internship .landing .main-sec > div:first-of-type {
+    flex-basis: 61%;
+}
+.internship .landing .main-sec > div:last-of-type {
+    flex-basis: 35%;
+    text-align: center;
+}
+.internship .landing .main-sec > div h2 {
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+.internship .landing .main-sec > div p {
+    color: #fff;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.internship .landing .main-sec > div:last-of-type h3 {
+    margin-top: 0px;
+    font-size: 35px;
+    margin-bottom: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.internship .landing .main-sec > div:last-of-type p{
+    text-align: center;
+    margin-bottom: 50px
+}
+.internship .landing .main-sec > div:last-of-type a {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.internship .testimonial > div > section h3 {
+font-size: 36px;
+font-weight: bold;
+margin-bottom: 18px;
+}
+.internship .testimonial > div > section  > p {
+    color: #30353e;
+
+    font-weight: 300;
+    font-size: 16px;
+}
+.internship .testimonial > div > section .boxes {
+    flex-wrap: wrap;
+}
+.internship .testimonial > div > section .boxes .box  {
+    background: #f5f5f5;
+    padding: 32px 25px;
+    position: relative;
+    /* height: 178px; */
+    box-shadow: 0 10px 16px rgba(0,0,0,.07);
+    flex-basis: calc(100% / 2 - 40px);
+
+}
+.boxpop{
+    background: #f5f5f5;
+    padding: 30px 15px;
+    position: relative;
+    /* height: 178px; */
+    box-shadow: 0 10px 16px rgba(0,0,0,.07);
+    flex-basis: calc(100% / 2 - 40px);
+}
+.internship .testimonial > div > section .boxes .box::before , .boxpop::before{
+    position: absolute;
+    top: -32px;
+    right: 18px;
+    content: url('/assets/symbol.png');
+    
+}
+
+.internship .testimonial > div > section .boxes .box > div:first-of-type , .boxpop > div:first-of-type{
+    /* position: relative; */
+    flex-basis: 31%;
+    max-width: 120px;
+    max-height: 120px;
+    overflow: hidden;
+    z-index: 10;
+    border-radius: 50%;
+
+}
+.internship .testimonial > div > section .boxes .box > div:last-of-type , .boxpop > div:last-of-type{
+    flex-basis: 68%;
+    text-align: left;
+}
+.internship .testimonial > div > section .boxes .box > div:first-of-type button{
+    background: #e7593a;
+    border-radius: 50%;
+    border: 3px solid #f5f5f5;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    bottom: 17%;
+    left: 105px;
+}
+.boxpop > div:first-of-type button{
+    background: #e7593a;
+    border-radius: 50%;
+    border: 3px solid #f5f5f5;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    bottom: 26%;
+    left: 94px;
+}
+.internship .testimonial > div > section .boxes .box > div:last-of-type p {
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    display: block; 
+    display: -webkit-box;
+    height: 5.2em;
+    line-height: 1.8em;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.boxpop > div:last-of-type p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    display: block; 
+
+    line-height: 1.8em;
+}
+.internship .testimonial > div > section .boxes .box > div:last-of-type div , .boxpop > div:last-of-type div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.internship .testimonial > div > section .boxes .box > div:last-of-type div button , .boxpop > div:last-of-type div button{
+    color: #066592;
+}
+.modal.editpop .modal-box{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    width: fit-content !important;
+    max-width: 100% !important;
+}
+
+.modal.editpop .modal-box form .content .head > div {
+    height: fit-content !important;
+    width: 600px !important;
+}
+.modal.thetop{
+    z-index: 1000000000000;
+}
+
+@media (max-width:488px) {
+    .internship .landing{
+        height: fit-content;
+    }
+    .internship .landing .main-sec{flex-wrap: wrap;}
+    .internship .landing .main-sec > div:first-of-type , .internship .landing .main-sec > div:last-of-type{
+        flex-basis: 100%;
+    }
+    .internship .testimonial > div > section .boxes .box{
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .internship .testimonial > div > section .boxes .box > div:first-of-type, .boxpop > div:first-of-type{
+        flex-basis: 100%;
+        
+    }
+    .internship .testimonial > div > section .boxes .box > div:last-of-type, .boxpop > div:last-of-type{
+        flex-basis: 100%;
+    }
+    .internship .testimonial > div > section .boxes .box > div:first-of-type button{
+        bottom: 52%;
+        left: 190px;
+    }
+    .internship .testimonial > div > section .boxes .box > div:last-of-type p{
+        line-height: 1.8;
+        height: fit-content;
+        display: block;
+    }
+    .internship .testimonial > div > section .boxes .box > div:last-of-type div button, .boxpop > div:last-of-type div button{
+        display: none;
+    }
+    .modal-box form .content .head > div {
+        width: 301px !important;
+        height: 232px !important;
+    }
+}

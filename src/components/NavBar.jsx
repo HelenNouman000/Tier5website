@@ -6,7 +6,7 @@ function NavBar() {
     const [sideMenu , setSide] = useState(false);
   return (
     <>
-    <section className='flex items-center justify-between py-10' >
+    <section className='flex items-center justify-between navBar py-10' >
            <Link to='/'>
            <img src='/assets/5fe632ff51e03_tier5_logo_white.png' alt='' />
            </Link>
@@ -16,7 +16,7 @@ function NavBar() {
             </div>
          
           </section>
-             <div className={`bg-white  text-black menu ${sideMenu ? 'menuactive' : 'menunoactive'}`} id='menu'>
+             <div className={`bg-white  text-black  sidemenu ${sideMenu ? 'menuactive' : 'menunoactive'}`} >
              <div  onClick={()=> setSide(false)} className='cursor-pointer'>
              <img src='/assets/close.png' />
              </div>
@@ -26,9 +26,9 @@ function NavBar() {
                    <li><HashLink to='/company#products'>Products</HashLink></li>
                    <li><HashLink to='/company#leaders'>Leaders</HashLink></li>
                    <li><HashLink to='/technology'>Technology</HashLink></li>
-                   <li><a>Helping Hands</a></li>
-                   <li><a>Intership</a></li>
-                   <li><a>Partners</a></li>
+                   <li><HashLink to='/helping_hands'>Helping Hands</HashLink></li>
+                   <li><HashLink to='/internship'>Internship</HashLink></li>
+                   <li><HashLink to='/partners'>Partners</HashLink></li>
                    <li><a>Customers</a></li>
                    <li><a>Blogs</a></li>
                    <li><a>NewsLetters</a></li>
