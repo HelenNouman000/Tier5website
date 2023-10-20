@@ -10,6 +10,8 @@ import Company from './pages/Company';
 import HelpingHands from './pages/HelpingHands';
 import InternShip from './pages/InternShip';
 import Partners from './pages/Partners';
+import Customers from './pages/Customers';
+import NewsLetters from './pages/NewsLetters';
 function App() {
 
   return (
@@ -21,6 +23,8 @@ function App() {
     <Route path='/helping_hands' element={<HelpingHands />} />
     <Route path='/internship' element={<InternShip />} />
     <Route path='/partners' element={<Partners />} />
+    <Route path='/customers' element={<Customers />} />
+    <Route path='/newsletters' element={<NewsLetters />} />
 </Routes>
 </div>
 

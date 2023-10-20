@@ -50,10 +50,73 @@
   margin: 24px 0 0;
   font-weight: 600;
 }
-.count-section{
-  background: #D3DCE9 url(https://geniuspages.io/images/uploads/669/5feb5e338f4bd_chirply_icon_water_mark.png) no-repeat right 0 top 0 / auto 100%;
+.count-section.chir{
+  background: #D3DCE9 url('/assets/5feb5e338f4bd_chirply_icon_water_mark.png') no-repeat right 0 top 0 / auto 100%;
     border-top: 1px solid #C2CCDB;
     border-bottom: 1px solid #C2CCDB;
+    padding: 100px 12%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+.count-section.dom{
+  background: #d2ffdd url('/assets/domain.png') no-repeat right 0 top -18px / auto 100%;
+    border-top: 1px solid #b3e2bf;
+    border-bottom: 1px solid #b3e2bf;
+    padding: 100px 12%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+.count-section.mag{
+  background: #fef2f2 url('/assets/magic.png') no-repeat right 0 top 0px ;
+    border-top: 1px solid #ebdada;
+    border-bottom: 1px solid #ebdada;
+    padding: 100px 12%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.count-section.inv{
+  background: #e1eaff url('/assets/inv.png') no-repeat right 0 top 0px ;
+    border-top: 1px solid #c2cce4;
+    border-bottom: 1px solid #c2cce4;
+    padding: 100px 12%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.count-section.sti{
+  background: #ccfff5 url('/assets/sti.png') no-repeat right 0 top 0 ;
+    border-top: 1px solid #aee0d6;
+    border-bottom: 1px solid #aee0d6;
+    padding: 100px 12%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.count-section.rob{
+  background: #e6f2ff url('/assets/robo.png') no-repeat right 0 top 0 ;
+    border-top: 1px solid #cddbe9;
+    border-bottom: 1px solid #cddbe9;
+    padding: 100px 12%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.count-section.lin{
+  background: #f6f6f6 url('/assets/lin.png') no-repeat right 0 top 0 ;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
     padding: 100px 12%;
     margin-top: 60px;
     display: flex;
@@ -255,4 +318,65 @@ transition: 0.3s;
   .navBar >a > img{
     width: 190px;
   }
+ .mainpage .landing .land-header{
+font-size: 50px;
+  }
+  .mainpage .landing{
+    height: fit-content;
+    padding-bottom: 40px;
+    background-position: center;
+  }
+  .ex-up{
+    width: 100%;
+  }
+  .dy-items{
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 60px !important;
+  }
+  .count-section{
+    flex-wrap: wrap;
+  }
+  .count-section > div{
+    flex-basis: 100%;
+    margin-bottom: 28px;
+  }
+  .count-section > div::after{
+    display: none;
+  }
+  .count-section > div h3{
+    font-size: 32px;
+  }
+  .owner-up .owner-info{
+    padding: 0;
+  }
+  .owner-up .owner-info h2{
+    padding: 0;
+    font-size: 37px;
+  }
+  .owner-up .owner-info p{
+    font-size: 15px;
+  }
+.mainpage .partner > div > section{
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.mainpage .partner > div > section > section{
+  text-align: center;
+  text-align: -webkit-center;
+  text-align: -moz-center;
+}
+.mainpage .partner .part-header{
+  width: 60%;
+}
+.mainpage .partner p{
+  width: 100%;
+}
+.owners .leftSideImg {
+  max-width: 250px !important;
+  position: relative;
+  left: -122px;
+  top: -83px;
+}
 }

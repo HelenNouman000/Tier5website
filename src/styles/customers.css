@@ -1,0 +1,93 @@
+.customers .landing {
+    background-color: rgb(127, 223, 241);
+    height: 100vh;
+    margin-bottom: 80px;
+}
+.customers .landing div.info {
+width: 70%;
+margin: 100px auto 30px;
+text-align: center;
+}
+.customers .landing div.info h2{
+    font-size: 40px;
+    color: #30353e;
+    font-weight: 500;
+}
+.customers .landing div.info p {
+    line-height: 1.8;
+    margin-top: 70px;
+    font-size: 15px;
+}
+.customers .nested{
+    gap: 90px 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.customers .nested > div {
+    flex-basis: calc(100% / 3 - 20px);
+}
+.customers .videos > div > div {
+    margin: 20px auto 100px;
+    width: 70% !important ;
+    height: 427px !important;
+}
+.customers .nested > div > div{
+    width: 100% !important;
+    height: 300px !important;
+}
+.customers .cardd {
+    background: #f5f5f5;
+    padding: 30px;
+    box-shadow: 0 10px 16px rgba(0,0,0,.07);
+    position: relative
+}
+.customers .cardd::before{
+    content: url('/assets/symbol.png');
+    position: absolute;
+    top: -30px;
+    right: 20px
+}
+.customers .cardd p {
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.customers .cardd p a {
+    color: #007bff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.customers .cardd p a:hover{
+    text-decoration: underline;
+}
+.customers .cardd span{
+    font-size: 13px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-weight: 500;
+}
+@media (max-width: 488px) {
+    .customers .landing div.info{
+        width: 100%;
+    }
+    .customers .landing{
+        height: fit-content;
+        padding-bottom: 60px;
+    }
+    .customers .videos > div > div{
+        width: 100% !important;
+    }
+    .customers .nested > div{
+        flex-basis: 100%;
+    }
+    .customers .cardd p{
+        margin-bottom: 50px;
+    }
+    .customers .nested{
+        gap: 50px 20px;
+        margin-bottom: 80px;
+    }
+}

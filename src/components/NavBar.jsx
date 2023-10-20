@@ -28,10 +28,11 @@ function NavBar() {
                    <li><HashLink to='/technology'>Technology</HashLink></li>
                    <li><HashLink to='/helping_hands'>Helping Hands</HashLink></li>
                    <li><HashLink to='/internship'>Internship</HashLink></li>
+                   <li><a href='https://career.tier5.in/'>Career</a></li>
                    <li><HashLink to='/partners'>Partners</HashLink></li>
-                   <li><a>Customers</a></li>
-                   <li><a>Blogs</a></li>
-                   <li><a>NewsLetters</a></li>
+                   <li><HashLink to='/customers'>Customers</HashLink></li>
+                   <li><a href='https://blogs.tier5.in/'>Blogs</a></li>
+                   <li><HashLink to='/newsletters'>NewsLetters</HashLink></li>
                </ul>
                <div className='number'>
                    <span>CALL US AT:</span>

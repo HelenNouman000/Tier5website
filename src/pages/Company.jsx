@@ -57,7 +57,7 @@ esteemed customers. Your success is our satisfaction.</p>
                     <h3 className='main-header'>Our Mission</h3>
                     <p className='mb-3'>Our mission is to explore the true power of education, leveraging technology and help the society for sustainable growth.</p>
                     <h3 className='main-header'>Core values</h3>
-                        <div className='flex gap-16'>
+                        <div className='flex gap-16 uls'>
                             <ul>
                                 <li>Open to learn & grow</li>
                                 <li>Self development & evaluation</li>

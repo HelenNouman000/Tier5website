@@ -211,3 +211,45 @@ font-size: 14px;}
     font-size: 18px;
     line-height: 36px;}
 /* //////////////////// */
+
+@media (max-width:488px) {
+    .company .landing{
+        height: fit-content;
+        padding-bottom: 60px;
+    }
+    .company .landing .info p{
+        width: 100%;
+    }
+    .company .thecompany > div > section {
+        flex-wrap:wrap-reverse;
+    }
+    .company .thecompany img {
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0;
+    }
+    .company .uls {
+        gap: 2rem;
+    }
+    .company .dynamic-sec{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .company .dynamic-sec > div:last-of-type{
+        flex-basis: 100%;
+        text-align: center;
+        text-align: -webkit-center;
+    }
+    .swiper-slide div.gap-10 {
+        gap: 13px;
+    }
+    .company .products .mySwiper {
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 40px;
+        margin-bottom: 150px;
+        border-top: 1px solid #E6E6E6;
+    }
+}

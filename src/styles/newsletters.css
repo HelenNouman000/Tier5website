@@ -1,0 +1,66 @@
+.newsletters .landing {
+    background-image: url('/assets/newsletters.png');
+    background-repeat: no-repeat;
+    height: 55vh;
+    /* background-position: 90% 40%; */
+    background-size: contain
+}
+
+.newsletters h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    font-size: 34px;
+    width: fit-content;
+    margin: 20px auto 80px;
+    font-weight: bold;
+}
+.newsletters h2::after{
+    position: absolute;
+    content: '';
+    width:16% ;
+    height: 3px;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    background-color: #215cd2;
+}
+.newsletters .letters {
+    display: flex;
+    justify-content: space-between;
+    gap:90px 20px;
+    flex-wrap: wrap;
+}
+.newsletters .letters > a {
+    flex-basis: calc(100% / 3 - 20px);
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 0px;
+    background-color: rgb(252, 252, 252);
+    padding: 40px;
+    text-align: left;
+}
+.newsletters .letters > a h3{
+    margin-top: 20px;
+    color: #337ab7;
+    font-weight: 700;
+    font-size: 18px;
+}
+.newsletters .letters > a h3:hover{
+    text-decoration: underline;
+}
+.newsletters .letters > a span{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    font-weight: 600;
+}
+.newsletters .letters > a img {
+    height: 88%;
+}
+
+@media (max-width: 488px) {
+    .newsletters .letters > a{
+        flex-basis: 100%;
+    }
+    .newsletters .landing{
+        height: fit-content;
+    }
+}
