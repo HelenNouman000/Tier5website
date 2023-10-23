@@ -38,7 +38,7 @@ const handleClick = (e) => {
         <section className='ex-up'>
          <h3 className='ex-header'>Experience our Software </h3>
           <p className='ex-parag pb-5'>Stay on the cutting edge with new solutions, customers haven’t seen before. Experience our supremely innovative and remarkably effective software's.</p>
-          <a className='learn-more-btn'>Learn More</a>
+          <a className='learn-more-btn' href='https://partner.tier5.us/jrpartnership'>Learn More</a>
          </section>
          <section className='dy-items item-list flex items-center gap-4 justify-between mt-24'>
           <a className='item cursor-pointer' id='Chirply' onClick={handleClick} style={{width: 'fit-content'}}>
@@ -218,7 +218,7 @@ const handleClick = (e) => {
   <h2>Trusted by <b>15000+</b> business owners</h2>
 <p>Tier5 has proved to be devoted & incorruptible by successful entrepreneurs, market leaders and startup companies globally  for it's spirituous and high  serviceable software's, user-friendly products, dependable customer support and the zeal for upgrading themselves to raise standards. </p>
 <img src='/assets/6151a8e113aee_aaaa.png' alt='' />
-<a className='learn-more-btn'>Learn more</a>
+<a className='learn-more-btn' href='https://partnership.tier5.us'>Learn more</a>
   </section>
       </Container>
       <img src='/assets/5ff21b8761e92_graphic_home_.png' alt='' className='leftSideImg' />
@@ -234,8 +234,8 @@ const handleClick = (e) => {
         <section>
             <img src='/assets/5ff1f3b3ee46a_download.png' alt='' />
             <h3 className='part-header'>Become a <b>Partner</b></h3>
-            <p>You will actually own a part of Tier5 and <b>once you are a partner of Tier5, you start earning</b>.</p>
-            <button className='sec-btn'>I'm intersted</button>
+            <p className='mb-12'>You will actually own a part of Tier5 and <b>once you are a partner of Tier5, you start earning</b>.</p>
+            <a className='sec-btn mt-5 py-3 px-16' href='https://partnership.tier5.us'>I'm intersted</a>
         </section>
       </section>
     </Container>

@@ -316,10 +316,11 @@ transition: 0.3s;
     flex-wrap: wrap;
   }
   .navBar >a > img{
-    width: 190px;
+    width: 167px;
   }
  .mainpage .landing .land-header{
 font-size: 50px;
+margin-top: 60px;
   }
   .mainpage .landing{
     height: fit-content;

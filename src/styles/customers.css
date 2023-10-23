@@ -72,6 +72,7 @@ text-align: center;
 @media (max-width: 488px) {
     .customers .landing div.info{
         width: 100%;
+        margin: 30px auto;
     }
     .customers .landing{
         height: fit-content;
@@ -90,4 +91,11 @@ text-align: center;
         gap: 50px 20px;
         margin-bottom: 80px;
     }
+    .customers .landing div.info h2{
+        font-size: 32px;
+    }
+    .customers .landing div.info p{
+        margin-top: 30px;
+    }
+
 }

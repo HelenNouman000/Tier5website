@@ -78,14 +78,18 @@ margin-bottom: 18px;
     content: url('/assets/symbol.png');
     
 }
-
-.internship .testimonial > div > section .boxes .box > div:first-of-type , .boxpop > div:first-of-type{
-    /* position: relative; */
+.internship .testimonial > div > section .boxes .box > div:first-of-type {
+    z-index: 10;
     flex-basis: 31%;
+    position: relative;
+}
+.internship .testimonial > div > section .boxes .box > div:first-of-type >div , .boxpop > div:first-of-type{
+    /* position: relative; */
+  
     max-width: 120px;
     max-height: 120px;
     overflow: hidden;
-    z-index: 10;
+   
     border-radius: 50%;
 
 }
@@ -100,8 +104,8 @@ margin-bottom: 18px;
     width: 44px;
     height: 44px;
     position: absolute;
-    bottom: 17%;
-    left: 105px;
+    bottom: -4%;
+    left: 55%;
 }
 .boxpop > div:first-of-type button{
     background: #e7593a;
@@ -181,19 +185,31 @@ margin-bottom: 18px;
         flex-basis: 100%;
     }
     .internship .testimonial > div > section .boxes .box > div:first-of-type button{
-        bottom: 52%;
-        left: 190px;
+        bottom: 3%;
+        left: 59%;
     }
     .internship .testimonial > div > section .boxes .box > div:last-of-type p{
         line-height: 1.8;
         height: fit-content;
         display: block;
     }
+
     .internship .testimonial > div > section .boxes .box > div:last-of-type div button, .boxpop > div:last-of-type div button{
         display: none;
     }
     .modal-box form .content .head > div {
         width: 301px !important;
         height: 232px !important;
+    }
+    .internship .landing .main-sec > div h2{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .internship .landing .main-sec > div p{
+        text-align: center;
+    }
+    .internship .testimonial > div > section .boxes .box > div:first-of-type >div{
+        margin: 3px auto;
     }
 }

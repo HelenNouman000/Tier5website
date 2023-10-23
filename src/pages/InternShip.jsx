@@ -243,7 +243,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
                <div>
                    <h3>How to Apply</h3>
                    <p>If you are interested in the internship you can enroll your name by clicking this button</p>
-                   <a className='learn-more2'>APPLY NOW</a>
+                   <a className='learn-more2' href='https://www.cognitoforms.com/RecruitmentManager1/Tier5InternshipForm'>APPLY NOW</a>
                </div>
            </section>
            </Container>
@@ -258,7 +258,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
                    <section className='boxes flex gap-12 py-16 justify-center'>
                        <div className='box relative flex items-center gap-8' >
                            <div className=''>
-                       <img src='/assets/inter1.png' alt='' />
+                     <div>  <img src='/assets/inter1.png' alt='' /></div>
                             <button  onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Aditi' /> </button>
                            </div>
                            <div>
@@ -271,10 +271,13 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
                        </div>
 
                        <div className='box relative flex items-center gap-8  ' >
-                           <div className=''>
+                          <div>
+                          <div className=''>
                        <img src='/assets/inter2.png' alt='' />
-                            <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Agnibh' /> </button>
                            </div>
+                           <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Agnibh' /> </button>
+
+                          </div>
                            <div>
                                <p>" This internship has taught me a lot which are very helpful to raise my skills as well as my knowledge beyond our subjects. Overall, it was a great experience and I'm very grateful being an intern of this program. "</p>
                                <div>
@@ -288,7 +291,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
 
                        <div className='box relative flex items-center gap-8  '>
                            <div className=''>
-                       <img src='/assets/inter3.png' alt='' />
+                      <div> <img src='/assets/inter3.png' alt='' /></div>
                             <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Aakash' /> </button>
                            </div>
                            <div>
@@ -304,7 +307,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
 
                        <div className='box relative flex items-center gap-8  '>
                            <div className=''>
-                       <img src='/assets/inter4.png' alt='' />
+                   <div>    <img src='/assets/inter4.png' alt='' /></div>
                             <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Ankita' /> </button>
                            </div>
                            <div>
@@ -320,7 +323,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
 
                        <div className='box relative flex items-center gap-8  '>
                            <div className=''>
-                       <img src='/assets/inter5.png' alt='' />
+                      <div> <img src='/assets/inter5.png' alt='' /></div>
                             <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Doyel' /> </button>
                            </div>
                            <div>
@@ -336,7 +339,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
                        
                        <div className='box relative flex items-center gap-8 '>
                            <div className=''>
-                       <img src='/assets/int11.png' alt='' />
+                    <div>   <img src='/assets/int11.png' alt='' /></div>
                             <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Jyoti' /> </button>
                            </div>
                            <div>
@@ -351,7 +354,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
 
 <div className='box relative flex items-center gap-8 '>
 <div className=''>
-<img src='/assets/inter12.png' alt='' />
+<div><img src='/assets/inter12.png' alt='' /></div>
    <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Manisha' /> </button>
 </div>
 <div>
@@ -365,7 +368,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
 
 <div className='box relative flex items-center gap-8 '>
 <div className=''>
-<img src='/assets/inter6.png' alt='' />
+<div><img src='/assets/inter6.png' alt='' /></div>
    <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Raunok' /> </button>
 </div>
 <div>
@@ -379,7 +382,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
 
 <div className='box relative flex items-center gap-8 '>
 <div className=''>
-<img src='/assets/inter7.png' alt='' />
+<div><img src='/assets/inter7.png' alt='' /></div>
    <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Rohan' /> </button>
 </div>
 <div>
@@ -393,7 +396,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
 
 <div className='box relative flex items-center gap-8 '>
 <div className=''>
-<img src='/assets/inter8.png' alt='' />
+<div><img src='/assets/inter8.png' alt='' /></div>
    <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Subhadip' /> </button>
 </div>
 <div>
@@ -407,7 +410,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
 
 <div className='box relative flex items-center gap-8 '>
 <div className=''>
-<img src='/assets/inter9.png' alt='' />
+<div><img src='/assets/inter9.png' alt='' /></div>
    <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Sibasish' /> </button>
 </div>
 <div>
@@ -421,7 +424,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
 
 <div className='box relative flex items-center gap-8 '>
 <div className=''>
-<img src='/assets/inter10.png' alt='' />
+<div><img src='/assets/inter10.png' alt='' /></div>
    <button onClick={(e)=> {setVideo1(true); setName(e.currentTarget.children[0].id)}}>   <img src='/assets/play.png' alt='' id='Souvik' /> </button>
 </div>
 <div>

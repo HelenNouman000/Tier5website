@@ -15,7 +15,7 @@ function HelpingHands() {
 
                        <div className='pt-24'>
                        <img src='/assets/helping.png' alt='' />
-                       <a className='learn-more2'>LEARN MORE</a>
+                       <a className='learn-more2' href='https://partner.tier5.us/jrpartnership'>LEARN MORE</a>
                        </div>
                  
                     <div>

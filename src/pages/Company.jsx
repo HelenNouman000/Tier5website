@@ -81,8 +81,293 @@ esteemed customers. Your success is our satisfaction.</p>
                 </section>
                 </Container>
             </section>
+<section className='journey text-center py-16' id='journy'>
+    <Container>
+        <section>
+        <img src='/assets/arrows.png' alt='' />
+                    <h2>The Journey</h2>
+                    <span>We are Growing every year - See our Journey Till now and Follow us to see How we become one of the Best Software Development firms in the world</span>
 
-            <section className='products text-center'>
+                    <div className='journey-line relative '>
+                       <ul className='flex  justify-between mt-36 mb-24'>
+                        <li className='three'>
+                        <span className='text-sm' style={{marginLeft: '-68px'}}>Employee:2</span>
+                        <div></div>
+                            <span className="point"></span>
+                            <div></div>
+                            <span className='text-sm' style={{marginLeft: '-58px'}}>Year:    2016</span>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <span className='text-sm'>R&D</span>
+                        </li>
+                        <li className='three'>
+                            <span className='text-sm'>37</span>
+                        <div></div>
+
+                            <span className="point"></span>
+                            <div></div>
+                            <span className='text-sm'>2019</span>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='http://robocontact.io/'><img src="/assets/jl1.png" alt="" /> <p>Robo Contact</p></a>
+                           
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                           <a href='https://www.domainleads.io/'>
+                           <img src="/assets/jl2.png" alt="" />
+                            <p>Domains Leads</p>
+                           </a>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.invoicingyou.io/'>
+                           <img src="/assets/jl3.png" alt="" />
+                            <p>Invoiving You</p>
+                           </a>
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.textinbulk.io/'>
+                           <img src="/assets/jl4.png" alt="" />
+                            <p>Text In Bulk</p>
+                           </a>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.uselinkwizard.io/'>
+                           <img src="/assets/jl5.png" alt="" />
+                            <p>Link Wizard</p>
+                           </a>
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.amagiczap.io/'>
+                           <img src="/assets/jl6.png" alt="" />
+                            <p>Magic Zap</p>
+                           </a>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://usestickyreviews.com/'>
+                           <img src="/assets/jl7.png" alt="" />
+                            <p>Stickey Review</p>
+                           </a>
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.chirply.io/'>
+                           <img src="/assets/jl8.png" alt="" />
+                            <p>Chirply</p>
+                           </a>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://buy.friendconnector.io/'>
+                           <img src="/assets/jl9.png" alt="" />
+                            <p>Friend Connecter Pro</p>
+                           </a>
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.geniuspages.io/'>
+                           <img src="/assets/jl10.png" alt="" />
+                            <p>Genius Pages</p>
+                           </a>
+                        </li>
+                        <li className='three'>
+                        <span className='text-sm'>50</span>
+                        <div></div>
+                            <span className="point"></span>
+                            <div></div>
+                            <span className='text-sm'>2020</span>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://buy.postfilter.io/about-post-filter'>
+                           <img src="/assets/jl11.png" alt="" />
+                            <p>Post Filter Pro</p>
+                           </a>
+
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.domainleads.io/'>
+                           <img src="/assets/jl12.png" alt="" />
+                            <p>Biggest Fan Pro</p>
+                           </a>
+
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.unlimitedbusinessleads.io/'>
+                           <img src="/assets/jl13.png" alt="" />
+                            <p>Unlimited Business Leads</p>
+                           </a>
+
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.birthdaywisher.io'>
+                           <img src="/assets/jl14.png" alt="" />
+                            <p>Birthday Wisher</p>
+                           </a>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://buy.postprofits.io/about-post-profits'>
+                           <img src="/assets/jl15.png" alt="" />
+                            <p>Post Profit Pro</p>
+                           </a>
+                                </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.cfpagecloner.com/'>
+                           <img src="/assets/jl16.png" alt="" />
+                            <p>Easy CF Page Cloner Pro</p>
+                           </a>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.groovecloner.com/o'>
+                           <img src="/assets/jl17.png" alt="" />
+                            <p>Groove Cloner</p>
+                           </a>
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.engagementmonster.com/'>
+                           <img src="/assets/jl19.png" alt="" />
+                            <p>Engagement Monster</p>
+                           </a>
+                        </li>
+                        <li className='three'>
+                        <span className='text-sm'>65</span>
+                        <div></div>
+                            <span className="point"></span>
+                            <div></div>
+                            <span className='text-sm'>2021</span>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.postscheduler.io/'>
+                           <img src="/assets/jl20.png" alt="" />
+                            <p>Post Scheduler</p>
+                           </a>
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.tweeter.ai/'>
+                           <img src="/assets/jl21.png" alt="" />
+                            <p>Tweeter AI</p>
+                           </a>
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.mfenevan.com/'>
+                           <img src="/assets/jl22.png" alt="" />
+                            <p>MeFn Evan</p>
+                           </a>  
+                                                 </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.frienddisconnector.com/'>
+                           <img src="/assets/jl23.png" alt="" />
+                            <p>Friend Disconnecter</p>
+                           </a> 
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.formfiller.io/'>
+                           <img src="/assets/jl24.png" alt="" />
+                            <p>Form Filler</p>
+                           </a> 
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.grammywammy.com/'>
+                           <img src="/assets/jl25.png" alt="" />
+                            <p>Grammy Wammy</p>
+                           </a>                         </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.madader.com/'>
+                           <img src="/assets/jl26.png" alt="" />
+                            <p>Mad Ader</p>
+                           </a>   
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.winnerwinnerchickendinner.io/'>
+                           <img src="/assets/jl27.png" alt="" />
+                            <p>Winner Winner Chicken Dinner</p>
+                           </a> 
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href='https://www.groupmonkey.io/'>
+                           <img src="/assets/jl28.png" alt="" />
+                            <p>Group Monkey</p>
+                           </a> 
+                        </li>
+                        <li className='one'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href="https://www.unlimitedmapsleads.io/optin1625732211979">
+                           <img src="/assets/jl29.png" alt="" />
+                            <p>Color Grabber</p>
+                           </a> 
+                        </li>
+                        <li className='two'>
+                            <span className="point"></span>
+                            <div></div>
+                            <a href="https://www.tier5.us/www.colorgrabber.io">
+                           <img src="/assets/jl30.png" alt="" />
+                            <p>Unlimited Maps Leads</p>
+                           </a> 
+                        </li>
+                        <li className='one'>
+                            <span className="arrow"></span>
+            
+                        </li>
+                   
+                       </ul>
+                    </div>
+        </section>
+    </Container>
+</section>
+
+            <section className='products text-center' id='products'>
                 <Container>
                    <section>
                    <img src='/assets/arrows.png' alt='' />

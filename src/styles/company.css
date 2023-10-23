@@ -109,8 +109,12 @@ margin-bottom: 50px;
     height: 139px;
     margin: 2px auto;
 }
-.company .leaders .cards .card:not(:last-of-type){
+.company .leaders .cards .card:not(:last-of-type) {
     border-right: 1px solid #D5E5EC;
+    border-radius: 0;
+}
+.company .leaders .cards .card:nth-of-type(3){
+    border-right-width: 0;
 }
 .company .leaders .cards .card h3{
     font-size: 22px;
@@ -140,15 +144,15 @@ margin-bottom: 50px;
 .swiper-wrapper > div {
     text-align: center;
 }
-.company .products > div > section > img {
+.company .products > div > section > img,.company .journey > div > section > img {
     margin: 10px auto 10px;
 }
-.company .products > div > section > h2 {
+.company .products > div > section > h2 ,.company .journey > div > section > h2{
     font-size: 32px;
     padding: 20px 0 14px;
     margin-bottom: 0;
 }
-.company .products > div > section > span {
+.company .products > div > section > span , .company .journey > div > section > span{
     color: #9E9E9E;
     font-size: 16px;
 
@@ -210,6 +214,136 @@ font-size: 14px;}
 {color: #2C3F47;
     font-size: 18px;
     line-height: 36px;}
+    .company .journey .journey-line{
+        margin-top: 80px;
+    }
+    .company .journey .journey-line ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .company .journey .journey-line ul li .point{
+        background-color: #0077FF;
+        width: 11px;
+        height: 11px;
+        position: relative;
+        border-radius: 50%;
+        display: block;
+    }
+    .company .journey .journey-line ul li .arrow{
+        border-left: 10px solid #65d6e8  ;
+        border-right: 10px solid transparent  ;
+        border-top: 10px solid transparent  ;
+        border-bottom: 10px solid transparent  ;
+        margin-right: -13px;
+        margin-top: -3px;
+        margin-left: 10px;
+    }
+    .company .journey .journey-line ul li.one div{
+        width: 1px;
+        height: 70px;
+        background-color: #0077FF;
+    }
+    .company .journey .journey-line ul li.two div{
+        height: 35px;
+        background-color: #0077FF;
+        width: 1px;
+
+
+    }
+    .company .journey .journey-line ul li.three{
+        margin-top: -76px;
+    }
+    .company .journey .journey-line ul li.three div{
+        width: 1px;
+        height: 55px;
+        background-color: #0077FF;
+    }
+    .company .journey .journey-line ul li.three .point{
+        border: 6px solid white;
+        outline: 1px solid #0077FF;
+        width: 22px;
+        height: 22px;
+        margin-top: -4px;
+    }
+    .company .journey .journey-line ul li img{
+        width: 26px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+.company .journey .journey-line ul::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #65d6e8;
+    left: 0;
+    top: 6px;
+    z-index: -1;
+}
+.company .journey .journey-line ul li:nth-of-type(9){
+    position: relative;
+}
+
+.company .journey .journey-line ul li:nth-of-type(9)::before{
+    content: 'Product Based Company';
+    position: absolute;
+    top: -30px;
+    font-size: 10px;
+    left: -60px;
+    width: 140px;
+    color: #7a7a7a;
+}
+.company .journey .journey-line ul li:nth-of-type(2){
+color: #0077FF;
+position: relative;
+margin-left: 33px;
+margin-right: 20px;
+}
+.company .journey .journey-line ul li:nth-of-type(2)::before{
+    content: 'Service Based Company';
+    position: absolute;
+    top: -30px;
+    font-size: 10px;
+    left: -60px;
+    width: 140px;
+    color: #7a7a7a;
+
+}
+.company .journey .journey-line ul li.one p{
+position: absolute;
+font-size: 11px;
+width: 85px;
+background: #5da7ece6;
+color: white;
+bottom: -20px;
+z-index: 50;
+transition: 0.3s;
+left: -20px;
+/* display: none; */
+opacity: 0;
+}
+.company .journey .journey-line ul li.two p{
+    position: absolute;
+    font-size: 11px;
+    width: 85px;
+    background: #5da7ece6;
+    color: white;
+    bottom: 15px;
+    z-index: 50;
+    transition: 0.3s;
+    left: -20px;
+    /* display: none; */
+    opacity: 0;
+    }
+    
+.company .journey .journey-line ul li a:hover p {
+    opacity: 1;
+}
+
 /* //////////////////// */
 
 @media (max-width:488px) {
@@ -251,5 +385,108 @@ font-size: 14px;}
         padding-top: 40px;
         margin-bottom: 150px;
         border-top: 1px solid #E6E6E6;
+    }
+    .company .leaders .cards .card{
+        flex-basis: 100%;
+    }
+    .company .leaders .cards{
+        padding: 0;
+    }
+    .company .leaders .cards .card{
+        border-right-width: 0;
+    }
+
+
+
+
+    .journey-line ul {
+        flex-direction: column;
+        margin-left: 50%;
+        margin-top: 50px;
+        margin-bottom: 50px
+    }
+    .company .journey .journey-line ul li.three div {
+        width: 55px;
+        height: 1px;
+    }
+    .company .journey .journey-line ul li{
+        flex-direction: row;
+    }
+    .company .journey .journey-line ul::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background-color: #65d6e8;
+        left: 51%;
+        top: 0px;
+        z-index: -1;
+    }
+    .company .journey .journey-line ul li.two div {
+        height: 1px;
+        background-color: #0077FF;
+        width: 35px;
+    }
+    .company .journey .journey-line ul li.one div {
+        width: 70px;
+        height: 1px;
+        background-color: #0077FF;
+    }
+    .company .journey .journey-line ul li .arrow {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #65d6e8;
+        border-bottom: 10px solid transparent;
+        margin-right: 0;
+        margin-top: 10px;
+    margin-left: -6px;
+    transform: translateY(10px);
+    }
+    .company .journey .journey-line ul li.three {
+        margin-top: 0;
+        margin-left: -73px;
+    }
+    .company .journey .journey-line ul li > span {
+        font-size: 11px;
+    }
+    .company .journey .journey-line ul li:nth-of-type(9)::before {
+     
+        top: -30px;
+     
+        left: -90px;
+ 
+        transform: rotate(-90deg);
+    }
+    .company .journey .journey-line ul li:nth-of-type(2) {
+        color: #0077FF;
+        position: relative;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
+    .company .journey .journey-line ul li:nth-of-type(2)::before {
+        content: 'Service Based Company';
+        position: absolute;
+        top: 0px;
+        font-size: 10px;
+        left: -132px;
+        width: 140px;
+        color: #7a7a7a;
+    }
+    .company .journey .journey-line ul li:nth-of-type(1){
+        margin-bottom: 8px
+    }
+    .company .journey .journey-line ul li:nth-of-type(1) > span:first-of-type{
+         margin-left: -57px !important;
+    margin-right: 10px;
+
+    }
+    .company .journey .journey-line ul li:nth-of-type(1) > span:last-of-type{
+        margin-left: 10px !important;
+
+    }
+    .company .journey .journey-line ul li img {
+   
+        margin-left: 5px;
     }
 }

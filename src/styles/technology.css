@@ -56,3 +56,30 @@ padding: 14px 50px;
     color: #757575;
     margin-bottom: 50px;
 }
+@media (max-width: 488px) {
+    .technology .landing .main-section{
+        margin-top: 3rem;
+    }
+    .technology .landing .main-section h2{
+        font-size: 35px;
+    }
+    .technology .landing .main-section p{
+        width: 100%;
+    }
+    .technology .landing{
+        height: fit-content;
+        padding-bottom: 80px;
+        background-position: bottom;
+    }
+    .technology .info-main{
+        padding-top: 40px;
+        background: url(https://geniuspages.io/images/uploads/2780/60095da8921b3_techGraphic1.png) no-repeat left bottom 25% / 179px auto, url(https://geniuspages.io/images/uploads/2780/60095db376e72_techGraphic2.png) no-repeat right bottom -2% / 227px auto;
+    }
+    .technology .info-main > div > div {
+        flex-wrap: wrap;
+        gap:4rem
+    }
+    .technology .info-main > div > div > section:last-of-type{
+        padding-bottom: 50px;
+    }
+}

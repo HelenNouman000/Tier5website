@@ -62,5 +62,10 @@
         margin-right: 0;
         align-self: center;
     
+    }.helping-hands .landing section > div:last-of-type h1{
+        font-size: 38px;
+    }
+    .helping-hands .landing section > div:last-of-type , .helping-hands .landing section > div:last-of-type p{
+        text-align: center;
     }
   }
