@@ -1,5 +1,5 @@
 .mainpage .landing {
-  height: 100vh;
+  /* height: 100vh; */
   overflow-x: hidden;
   background-image: url('/assets/61ee454fdcb00_latestBack.jpg');
   background-size: cover;
@@ -10,6 +10,9 @@
   margin-top: 160px;
   margin-bottom: 10px;
 } 
+.mainpage .landing .toborder {
+  border-right: 1px solid #fff;
+}
 .sec-btn {
   border-radius: 3px;
   color: black;
@@ -139,6 +142,7 @@
     color: #000;
     font-weight: 700;
 }
+
 .count-section > div:not(:last-of-type)::after{
 position: absolute;
 content: '';
@@ -148,6 +152,15 @@ background-color: rgba(0,0,0,.1);;
 right: -50%;
 top: 50%;
 transform: translate(50% , -50%);
+}
+.count-section.sti > div:nth-of-type(3)::after{
+  right: -17%;
+}
+.count-section.rob > div:nth-of-type(3)::after{
+  right: -17%;
+}
+.count-section.lin > div::after{
+  right: -110%;
 }
 .owners .leftSideImg{
 max-width: 510px !important;
@@ -373,6 +386,16 @@ margin-top: 60px;
 }
 .mainpage .partner p{
   width: 100%;
+}
+.mainpage .landing .awards{
+  flex-wrap: wrap;
+}
+.mainpage .landing .toborder{
+  border-width: 0;
+}
+.mainpage .landing .awards > div {
+  padding-right: 0;
+  padding-left: 0;
 }
 .owners .leftSideImg {
   max-width: 250px !important;

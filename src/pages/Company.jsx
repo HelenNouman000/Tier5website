@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar'
 import '../styles/company.css'
 import Footer from '../components/Footer'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Navigation  ,Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -40,7 +40,7 @@ esteemed customers. Your success is our satisfaction.</p>
                 </Container>
             </section>
 
-            <section className='thecompany py-28'>
+            <section className='thecompany py-16 md:py-28'>
                 <Container>
                 <section className='flex items-start justify-between gap-16'>
                 <section>
@@ -384,7 +384,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Chirply</b> helps Businesses in contacting leads and Prospects with multiple touch points through Calls, SMS and Emails
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://chirply.io">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -399,7 +399,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Domain Leads</b> helps businesses by providing access to a vast amount of leads for marketing their service and generate sales
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://domainleads.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -415,7 +415,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Magic Zap</b> helps Businesses increase their Conversions rates by Personalizing, Tracking and Engaging their Website Visitors.
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://amagiczap.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -431,7 +431,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>InvoicingYou</b>  is a simple and innovative Invoicing system helping Businesses to easily send invoices and sell products online.
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://invoicingyou.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -447,7 +447,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Sticky Reviews</b> is a Review Management tool helping Businesses collect and display reviews on their website to Increase Sales Conversions.
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.usestickyreviews.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -464,7 +464,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Robo Contact</b>  is an automation software Generating Targeted Leads based on Geographic Location with ease of use.
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://app.robocontact.io/login">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -484,7 +484,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.uselinkwizard.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -504,7 +504,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         If you don't have enough time to send friend request manually, then <b>Friend Connector Pro </b> is the right extension to use. Add your keywords and click a button! BOOM!! All done for you automatically.
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://buy.friendconnector.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -522,7 +522,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://geniuspages.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -545,7 +545,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://buy.postfilter.io/about-post-filter">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -567,7 +567,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="http://www.biggestfan.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -589,7 +589,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.unlimitedbusinessleads.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -609,7 +609,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.birthdaywisher.io/leverage">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -632,7 +632,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="http://www.biggestfan.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -652,7 +652,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://buy.postprofits.io/about-post-profits">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -673,7 +673,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.cfpagecloner.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -694,7 +694,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="http://groovecloner.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -714,7 +714,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.engagementmonster.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -731,7 +731,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         PRE-SCHEDULE your FB posts on your PERSONAL FACEBOOK PROFILE.
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.postscheduler.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -748,7 +748,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Tweeter AI</b> automatically create tweets based on AI and post them to your twitter account on your pre schedule time interval.
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.tweeter.ai/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -765,7 +765,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>MeFn Evan</b>  is a very first "chatbot" and broadcaster for your personal facebook profile
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.mfenevan.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -782,7 +782,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Friend Disconnector </b> remove inactive and deactivated friends from your Facebook.
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.frienddisconnector.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -799,7 +799,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Form Filler </b>  saves your time by prefilling any form on the internet with your information.
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.formfiller.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -816,7 +816,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Grammy Wammy  </b> automates and scale your Instagram engagement and relationship management on the fly.
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.grammywammy.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -833,7 +833,7 @@ esteemed customers. Your success is our satisfaction.</p>
                        The <b>Mad Ader </b>is your solution to creating proven profitable FB ads Place the name in the body content where ever it's needed.
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.madader.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -850,7 +850,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Winner Winner Chicken Dinner </b>turns your posts into viral giveaways and contests to get massive engagement, leads, and sales.
 
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.winnerwinnerchickendinner.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -866,7 +866,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Group Monkey </b>helps you manage, grow, automate, and monetize your FB group.
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.groupmonkey.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -882,7 +882,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         Get Unlimited Verified Maps Leads With The Click Of A Button From Google Map.
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.unlimitedmapsleads.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -898,7 +898,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         Save your notes and use them whenever needed!
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://www.mysimplescripts.com">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -914,14 +914,20 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>GruFlu</b> quickly finds the top influencers and top influential posts in any facebook group.
                         </p>
-                        <a className='nav-link'>
+                        <a className='nav-link' href="https://gruflu.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
                        </div>
                     </div>
                     }
-                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                <Swiper cssMode={true}
+        navigation={true}
+        pagination={true}
+        mousewheel={true}
+        keyboard={true}
+        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+        className="mySwiper">
         <SwiperSlide>
          <div className='flex items-center justify-center gap-10'>
                <a href='' id='Chirply' onClick={handleClick}> <img src='/assets/slider1.png' alt='' /></a>

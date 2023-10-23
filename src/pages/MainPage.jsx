@@ -26,6 +26,16 @@ const handleClick = (e) => {
           <h1 className='land-header font-bold'>Explore our Powerful Tools</h1>
             <p className='text-2xl'>Building a better business with Tier5</p>
             <button className='sec-btn'>Learn more</button>
+            <div className='flex items-center justify-center gap-8 mt-12 mb-5 awards'>
+              <div className='pr-16 toborder'>
+                <h3 className='underline mb-6 font-bold'>Awards & Recognitions :</h3>
+                <img src='/assets/award1.png' />
+              </div>
+              <div className='pl-4'>
+                <h3 className='underline mb-6 font-bold'>Proud Members :</h3>
+                <img src='/assets/award2.png' />
+              </div>
+            </div>
           </section>
         </Container>
   
@@ -73,7 +83,7 @@ const handleClick = (e) => {
          </section>
          </Container>
      {prod == 'Chirply' &&     <section className='count-section chir'>
-          <div>
+          <div className='md:pr-5'>
             <span>TOTAL USERS</span>
             <h3>5747</h3>
           </div>
@@ -91,7 +101,7 @@ const handleClick = (e) => {
           </div>
          </section>}
          {prod == 'Domain' &&     <section className='count-section dom'>
-          <div>
+          <div  className='md:pr-5'>
             <span>TOTAL USERS</span>
             <h3>3511</h3>
           </div>
@@ -109,15 +119,15 @@ const handleClick = (e) => {
           </div>
          </section>}
          {prod == 'Magic' &&     <section className='count-section  mag'>
-          <div>
+          <div  className='md:pr-9'>
             <span>TOTAL USERS</span>
             <h3>4430</h3>
           </div>
-          <div>
+          <div  className='md:pr-9'>
             <span>TOTAL ZAPS</span>
             <h3>337</h3>
           </div>
-          <div>
+          <div className='md:pr-6'>
             <span>TOTAL AUTOMATION</span>
             <h3>15303</h3>
           </div>
@@ -159,11 +169,11 @@ const handleClick = (e) => {
             <span>TOTAL USERS</span>
             <h3>7596</h3>
           </div>
-          <div>
+          <div className=''>
             <span>TOTAL STICKY REVIEWS</span>
             <h3>23312</h3>
           </div>
-          <div>
+          <div className='md:pl-9'>
             <span>TOTAL REVIEWS FROM REVIEW LINKS</span>
             <h3>4574</h3>
           </div>
@@ -173,11 +183,11 @@ const handleClick = (e) => {
           </div>
          </section>}
          {prod == 'Robo' &&     <section className='count-section rob'>
-          <div>
+          <div className='md:pr-7'>
             <span>TOTAL USERS</span>
             <h3>3833</h3>
           </div>
-          <div>
+          <div className='md:pr-2'>
             <span>TOTAL CONTACTS</span>
             <h3>244262</h3>
           </div>

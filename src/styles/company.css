@@ -344,9 +344,22 @@ opacity: 0;
     opacity: 1;
 }
 
+.mySwiper{
+    overflow-y: visible !important;
+}
+.swiper-pagination{
+bottom: -50px !important;
+opacity: 0;
+}
 /* //////////////////// */
 
 @media (max-width:488px) {
+    .swiper-pagination{
+        opacity: 1;
+    }
+    .swiper-button-next , .swiper-button-prev{
+        display: none !important;
+    }
     .company .landing{
         height: fit-content;
         padding-bottom: 60px;
