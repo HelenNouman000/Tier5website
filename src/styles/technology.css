@@ -33,6 +33,7 @@ padding: 14px 50px;
     font-size: 16px;
     line-height: 32px;
     color: #000;
+    font-weight: 400 !important;
 }
 .technology .info-main > div > div > section:last-of-type {
     padding-bottom: 250px;

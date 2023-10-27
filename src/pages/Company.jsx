@@ -35,7 +35,7 @@ function Company() {
                         <h2>Driven by passion</h2>
                         <p>At Tier5, we are driven by passion to provide the finest quality of software to our
 esteemed customers. Your success is our satisfaction.</p>
-<a href='https://partner.tier5.us/jrpartnership' className='learn-more2'>Learn more</a>
+<a target='_blank' href='https://partner.tier5.us/jrpartnership' className='learn-more2'>Learn more</a>
                     </div>
                 </Container>
             </section>
@@ -113,13 +113,13 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='http://robocontact.io/'><img src="/assets/jl1.png" alt="" /> <p>Robo Contact</p></a>
+                            <a target='_blank'  href='http://robocontact.io/'><img src="/assets/jl1.png" alt="" /> <p>Robo Contact</p></a>
                            
                         </li>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                           <a href='https://www.domainleads.io/'>
+                           <a target='_blank'  href='https://www.domainleads.io/'>
                            <img src="/assets/jl2.png" alt="" />
                             <p>Domains Leads</p>
                            </a>
@@ -127,7 +127,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.invoicingyou.io/'>
+                            <a target='_blank'  href='https://www.invoicingyou.io/'>
                            <img src="/assets/jl3.png" alt="" />
                             <p>Invoiving You</p>
                            </a>
@@ -135,7 +135,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.textinbulk.io/'>
+                            <a target='_blank'  href='https://www.textinbulk.io/'>
                            <img src="/assets/jl4.png" alt="" />
                             <p>Text In Bulk</p>
                            </a>
@@ -143,7 +143,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.uselinkwizard.io/'>
+                            <a target='_blank'  href='https://www.uselinkwizard.io/'>
                            <img src="/assets/jl5.png" alt="" />
                             <p>Link Wizard</p>
                            </a>
@@ -151,7 +151,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.amagiczap.io/'>
+                            <a target='_blank'  href='https://www.amagiczap.io/'>
                            <img src="/assets/jl6.png" alt="" />
                             <p>Magic Zap</p>
                            </a>
@@ -159,7 +159,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://usestickyreviews.com/'>
+                            <a target='_blank'  href='https://usestickyreviews.com/'>
                            <img src="/assets/jl7.png" alt="" />
                             <p>Stickey Review</p>
                            </a>
@@ -167,7 +167,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.chirply.io/'>
+                            <a target='_blank'  href='https://www.chirply.io/'>
                            <img src="/assets/jl8.png" alt="" />
                             <p>Chirply</p>
                            </a>
@@ -175,7 +175,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://buy.friendconnector.io/'>
+                            <a target='_blank'  href='https://buy.friendconnector.io/'>
                            <img src="/assets/jl9.png" alt="" />
                             <p>Friend Connecter Pro</p>
                            </a>
@@ -183,7 +183,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.geniuspages.io/'>
+                            <a target='_blank'  href='https://www.geniuspages.io/'>
                            <img src="/assets/jl10.png" alt="" />
                             <p>Genius Pages</p>
                            </a>
@@ -198,7 +198,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://buy.postfilter.io/about-post-filter'>
+                            <a target='_blank'  href='https://buy.postfilter.io/about-post-filter'>
                            <img src="/assets/jl11.png" alt="" />
                             <p>Post Filter Pro</p>
                            </a>
@@ -207,7 +207,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.domainleads.io/'>
+                            <a target='_blank'  href='https://www.domainleads.io/'>
                            <img src="/assets/jl12.png" alt="" />
                             <p>Biggest Fan Pro</p>
                            </a>
@@ -216,7 +216,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.unlimitedbusinessleads.io/'>
+                            <a target='_blank'  href='https://www.unlimitedbusinessleads.io/'>
                            <img src="/assets/jl13.png" alt="" />
                             <p>Unlimited Business Leads</p>
                            </a>
@@ -225,7 +225,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.birthdaywisher.io'>
+                            <a target='_blank'  href='https://www.birthdaywisher.io'>
                            <img src="/assets/jl14.png" alt="" />
                             <p>Birthday Wisher</p>
                            </a>
@@ -233,7 +233,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://buy.postprofits.io/about-post-profits'>
+                            <a target='_blank'  href='https://buy.postprofits.io/about-post-profits'>
                            <img src="/assets/jl15.png" alt="" />
                             <p>Post Profit Pro</p>
                            </a>
@@ -241,7 +241,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.cfpagecloner.com/'>
+                            <a target='_blank'  href='https://www.cfpagecloner.com/'>
                            <img src="/assets/jl16.png" alt="" />
                             <p>Easy CF Page Cloner Pro</p>
                            </a>
@@ -249,7 +249,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.groovecloner.com/o'>
+                            <a target='_blank'  href='https://www.groovecloner.com/o'>
                            <img src="/assets/jl17.png" alt="" />
                             <p>Groove Cloner</p>
                            </a>
@@ -257,7 +257,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.engagementmonster.com/'>
+                            <a target='_blank'  href='https://www.engagementmonster.com/'>
                            <img src="/assets/jl19.png" alt="" />
                             <p>Engagement Monster</p>
                            </a>
@@ -272,7 +272,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.postscheduler.io/'>
+                            <a target='_blank'  href='https://www.postscheduler.io/'>
                            <img src="/assets/jl20.png" alt="" />
                             <p>Post Scheduler</p>
                            </a>
@@ -280,7 +280,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.tweeter.ai/'>
+                            <a target='_blank'  href='https://www.tweeter.ai/'>
                            <img src="/assets/jl21.png" alt="" />
                             <p>Tweeter AI</p>
                            </a>
@@ -288,7 +288,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.mfenevan.com/'>
+                            <a target='_blank'  href='https://www.mfenevan.com/'>
                            <img src="/assets/jl22.png" alt="" />
                             <p>MeFn Evan</p>
                            </a>  
@@ -296,7 +296,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.frienddisconnector.com/'>
+                            <a target='_blank'  href='https://www.frienddisconnector.com/'>
                            <img src="/assets/jl23.png" alt="" />
                             <p>Friend Disconnecter</p>
                            </a> 
@@ -304,7 +304,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.formfiller.io/'>
+                            <a target='_blank'  href='https://www.formfiller.io/'>
                            <img src="/assets/jl24.png" alt="" />
                             <p>Form Filler</p>
                            </a> 
@@ -312,14 +312,14 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.grammywammy.com/'>
+                            <a target='_blank'  href='https://www.grammywammy.com/'>
                            <img src="/assets/jl25.png" alt="" />
                             <p>Grammy Wammy</p>
                            </a>                         </li>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.madader.com/'>
+                            <a target='_blank'  href='https://www.madader.com/'>
                            <img src="/assets/jl26.png" alt="" />
                             <p>Mad Ader</p>
                            </a>   
@@ -327,7 +327,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.winnerwinnerchickendinner.io/'>
+                            <a target='_blank'  href='https://www.winnerwinnerchickendinner.io/'>
                            <img src="/assets/jl27.png" alt="" />
                             <p>Winner Winner Chicken Dinner</p>
                            </a> 
@@ -335,7 +335,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href='https://www.groupmonkey.io/'>
+                            <a target='_blank'  href='https://www.groupmonkey.io/'>
                            <img src="/assets/jl28.png" alt="" />
                             <p>Group Monkey</p>
                            </a> 
@@ -343,7 +343,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='one'>
                             <span className="point"></span>
                             <div></div>
-                            <a href="https://www.unlimitedmapsleads.io/optin1625732211979">
+                            <a target='_blank'  href="https://www.unlimitedmapsleads.io/optin1625732211979">
                            <img src="/assets/jl29.png" alt="" />
                             <p>Color Grabber</p>
                            </a> 
@@ -351,7 +351,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <li className='two'>
                             <span className="point"></span>
                             <div></div>
-                            <a href="https://www.tier5.us/www.colorgrabber.io">
+                            <a target='_blank'  href="https://www.tier5.us/www.colorgrabber.io">
                            <img src="/assets/jl30.png" alt="" />
                             <p>Unlimited Maps Leads</p>
                            </a> 
@@ -384,7 +384,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Chirply</b> helps Businesses in contacting leads and Prospects with multiple touch points through Calls, SMS and Emails
                         </p>
-                        <a className='nav-link' href="https://chirply.io">
+                        <a target='_blank'  className='nav-link' href="https://chirply.io">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -399,7 +399,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Domain Leads</b> helps businesses by providing access to a vast amount of leads for marketing their service and generate sales
                         </p>
-                        <a className='nav-link' href="https://domainleads.io/">
+                        <a target='_blank'  className='nav-link' href="https://domainleads.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -415,7 +415,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Magic Zap</b> helps Businesses increase their Conversions rates by Personalizing, Tracking and Engaging their Website Visitors.
                         </p>
-                        <a className='nav-link' href="https://amagiczap.com/">
+                        <a target='_blank'  className='nav-link' href="https://amagiczap.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -431,7 +431,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>InvoicingYou</b>  is a simple and innovative Invoicing system helping Businesses to easily send invoices and sell products online.
                         </p>
-                        <a className='nav-link' href="https://invoicingyou.com/">
+                        <a target='_blank'  className='nav-link' href="https://invoicingyou.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -447,7 +447,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Sticky Reviews</b> is a Review Management tool helping Businesses collect and display reviews on their website to Increase Sales Conversions.
                         </p>
-                        <a className='nav-link' href="https://www.usestickyreviews.com/">
+                        <a target='_blank'  className='nav-link' href="https://www.usestickyreviews.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -464,7 +464,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Robo Contact</b>  is an automation software Generating Targeted Leads based on Geographic Location with ease of use.
                         </p>
-                        <a className='nav-link' href="https://app.robocontact.io/login">
+                        <a target='_blank'  className='nav-link' href="https://app.robocontact.io/login">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -484,7 +484,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="https://www.uselinkwizard.com/">
+                        <a target='_blank'  className='nav-link' href="https://www.uselinkwizard.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -504,7 +504,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         If you don't have enough time to send friend request manually, then <b>Friend Connector Pro </b> is the right extension to use. Add your keywords and click a button! BOOM!! All done for you automatically.
 
                         </p>
-                        <a className='nav-link' href="https://buy.friendconnector.io/">
+                        <a target='_blank'  className='nav-link' href="https://buy.friendconnector.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -522,7 +522,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="https://geniuspages.io/">
+                        <a target='_blank'  className='nav-link' href="https://geniuspages.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -545,7 +545,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="https://buy.postfilter.io/about-post-filter">
+                        <a target='_blank'  className='nav-link' href="https://buy.postfilter.io/about-post-filter">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -567,7 +567,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="http://www.biggestfan.io/">
+                        <a target='_blank'  className='nav-link' href="http://www.biggestfan.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -589,7 +589,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="https://www.unlimitedbusinessleads.io/">
+                        <a target='_blank'  className='nav-link' href="https://www.unlimitedbusinessleads.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -609,7 +609,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="https://www.birthdaywisher.io/leverage">
+                        <a target='_blank'  className='nav-link' href="https://www.birthdaywisher.io/leverage">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -617,7 +617,7 @@ esteemed customers. Your success is our satisfaction.</p>
                     </div>
                     }
 
-{name == 'Biggest' &&  <div className='flex items-center gap-8 dynamic-sec'>
+{/* {name == 'Biggest' &&  <div className='flex items-center gap-8 dynamic-sec'>
                        <div>
                        <img src='/assets/slider12.png' alt='' />
                        <span>Biggest Fan Pro
@@ -632,13 +632,13 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="http://www.biggestfan.io/">
+                        <a target='_blank'  className='nav-link' href="http://www.biggestfan.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
                        </div>
                     </div>
-                    }
+                    } */}
                       {name == 'Post-Profits' &&  <div className='flex items-center gap-8 dynamic-sec'>
                        <div>
                        <img src='/assets/slider15.png' alt='' />
@@ -652,7 +652,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="https://buy.postprofits.io/about-post-profits">
+                        <a target='_blank'  className='nav-link' href="https://buy.postprofits.io/about-post-profits">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -673,7 +673,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="https://www.cfpagecloner.com/">
+                        <a target='_blank'  className='nav-link' href="https://www.cfpagecloner.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -694,7 +694,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="http://groovecloner.com/">
+                        <a target='_blank'  className='nav-link' href="http://groovecloner.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -714,7 +714,7 @@ esteemed customers. Your success is our satisfaction.</p>
 
 
                         </p>
-                        <a className='nav-link' href="https://www.engagementmonster.com/">
+                        <a target='_blank'  className='nav-link' href="https://www.engagementmonster.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -731,7 +731,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         PRE-SCHEDULE your FB posts on your PERSONAL FACEBOOK PROFILE.
 
                         </p>
-                        <a className='nav-link' href="https://www.postscheduler.io/">
+                        <a target='_blank'  className='nav-link' href="https://www.postscheduler.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -748,7 +748,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Tweeter AI</b> automatically create tweets based on AI and post them to your twitter account on your pre schedule time interval.
 
                         </p>
-                        <a className='nav-link' href="https://www.tweeter.ai/">
+                        <a target='_blank'  className='nav-link' href="https://www.tweeter.ai/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -765,7 +765,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>MeFn Evan</b>  is a very first "chatbot" and broadcaster for your personal facebook profile
 
                         </p>
-                        <a className='nav-link' href="https://www.mfenevan.com/">
+                        <a target='_blank'  className='nav-link' href="https://www.mfenevan.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -782,7 +782,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Friend Disconnector </b> remove inactive and deactivated friends from your Facebook.
 
                         </p>
-                        <a className='nav-link' href="https://www.frienddisconnector.com/">
+                        <a target='_blank'  className='nav-link' href="https://www.frienddisconnector.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -799,7 +799,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Form Filler </b>  saves your time by prefilling any form on the internet with your information.
 
                         </p>
-                        <a className='nav-link' href="https://www.formfiller.io/">
+                        <a target='_blank'  className='nav-link' href="https://www.formfiller.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -816,7 +816,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Grammy Wammy  </b> automates and scale your Instagram engagement and relationship management on the fly.
 
                         </p>
-                        <a className='nav-link' href="https://www.grammywammy.com/">
+                        <a target='_blank'  className='nav-link' href="https://www.grammywammy.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -833,7 +833,7 @@ esteemed customers. Your success is our satisfaction.</p>
                        The <b>Mad Ader </b>is your solution to creating proven profitable FB ads Place the name in the body content where ever it's needed.
 
                         </p>
-                        <a className='nav-link' href="https://www.madader.com/">
+                        <a target='_blank'  className='nav-link' href="https://www.madader.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -850,7 +850,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <b>Winner Winner Chicken Dinner </b>turns your posts into viral giveaways and contests to get massive engagement, leads, and sales.
 
                         </p>
-                        <a className='nav-link' href="https://www.winnerwinnerchickendinner.io/">
+                        <a target='_blank'  className='nav-link' href="https://www.winnerwinnerchickendinner.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -866,7 +866,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>Group Monkey </b>helps you manage, grow, automate, and monetize your FB group.
                         </p>
-                        <a className='nav-link' href="https://www.groupmonkey.io/">
+                        <a target='_blank'  className='nav-link' href="https://www.groupmonkey.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -882,7 +882,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         Get Unlimited Verified Maps Leads With The Click Of A Button From Google Map.
                         </p>
-                        <a className='nav-link' href="https://www.unlimitedmapsleads.io/">
+                        <a target='_blank'  className='nav-link' href="https://www.unlimitedmapsleads.io/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -898,7 +898,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         Save your notes and use them whenever needed!
                         </p>
-                        <a className='nav-link' href="https://www.mysimplescripts.com">
+                        <a target='_blank'  className='nav-link' href="https://www.mysimplescripts.com">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -914,7 +914,7 @@ esteemed customers. Your success is our satisfaction.</p>
                         <p>
                         <b>GruFlu</b> quickly finds the top influencers and top influential posts in any facebook group.
                         </p>
-                        <a className='nav-link' href="https://gruflu.com/">
+                        <a target='_blank'  className='nav-link' href="https://gruflu.com/">
                             <img src='/assets/link.png' alt='' />
                             Learn more
                         </a>
@@ -930,48 +930,48 @@ esteemed customers. Your success is our satisfaction.</p>
         className="mySwiper">
         <SwiperSlide>
          <div className='flex items-center justify-center gap-10'>
-               <a href='' id='Chirply' onClick={handleClick}> <img src='/assets/slider1.png' alt='' /></a>
-               <a href='' id='Domain'   onClick={handleClick}> <img src='/assets/slider2.png' alt='' /></a>
-               <a href='' id='Magic' onClick={handleClick}> <img src='/assets/slider3.png' alt='' /></a>
-               <a href='' id='InvoicingYou' onClick={handleClick}> <img src='/assets/slider4.png' alt='' /></a>
-               <a href='' id='Sticky' onClick={handleClick}> <img src='/assets/slider5.png' alt='' /></a>
-               <a href='' id='Robo' onClick={handleClick}> <img src='/assets/slider6.png' alt='' /></a>
-               <a href='' id='Link' onClick={handleClick}> <img src='/assets/slider8.png' alt='' /></a>
+               <a target='_blank'  href='' id='Chirply' onClick={handleClick}> <img src='/assets/slider1.png' alt='' /></a>
+               <a target='_blank'  href='' id='Domain'   onClick={handleClick}> <img src='/assets/slider2.png' alt='' /></a>
+               <a target='_blank'  href='' id='Magic' onClick={handleClick}> <img src='/assets/slider3.png' alt='' /></a>
+               <a target='_blank'  href='' id='InvoicingYou' onClick={handleClick}> <img src='/assets/slider4.png' alt='' /></a>
+               <a target='_blank'  href='' id='Sticky' onClick={handleClick}> <img src='/assets/slider5.png' alt='' /></a>
+               <a target='_blank'  href='' id='Robo' onClick={handleClick}> <img src='/assets/slider6.png' alt='' /></a>
+               <a target='_blank'  href='' id='Link' onClick={handleClick}> <img src='/assets/slider8.png' alt='' /></a>
                
             </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className='flex items-center justify-center gap-10'>
-               <a href='' id='Friend' onClick={handleClick}> <img src='/assets/slider9.png' alt='' /></a>
-               <a href='' id='Genius' onClick={handleClick}> <img src='/assets/slider10.png' alt='' /></a>
-               <a href='' id='Post' onClick={handleClick}> <img src='/assets/slider11.png' alt='' /></a>
-               <a href='' id='Biggest' onClick={handleClick}> <img src='/assets/slider12.png' alt='' /></a>
-               <a href='' id='Unlimited' onClick={handleClick}> <img src='/assets/slider13.png' alt='' /></a>
-               <a href='' id='Birthday' onClick={handleClick}> <img src='/assets/slider14.png' alt='' /></a>
-               <a href='' id='Post-Profits' onClick={handleClick}> <img src='/assets/slider15.png' alt='' /></a>
+               <a target='_blank'  href='' id='Friend' onClick={handleClick}> <img src='/assets/slider9.png' alt='' /></a>
+               <a target='_blank'  href='' id='Genius' onClick={handleClick}> <img src='/assets/slider10.png' alt='' /></a>
+               <a target='_blank'  href='' id='Post' onClick={handleClick}> <img src='/assets/slider11.png' alt='' /></a>
+               <a target='_blank'  href='' id='Biggest' onClick={handleClick}> <img src='/assets/slider12.png' alt='' /></a>
+               <a target='_blank'  href='' id='Unlimited' onClick={handleClick}> <img src='/assets/slider13.png' alt='' /></a>
+               <a target='_blank'  href='' id='Birthday' onClick={handleClick}> <img src='/assets/slider14.png' alt='' /></a>
+               <a target='_blank'  href='' id='Post-Profits' onClick={handleClick}> <img src='/assets/slider15.png' alt='' /></a>
                
             </div>
         </SwiperSlide>
         <SwiperSlide>  <div className='flex items-center justify-center gap-10'>
-               <a href='' id='Easy' onClick={handleClick}> <img src='/assets/slider16.png' alt='' /></a>
-               <a href='' id='Groove' onClick={handleClick}> <img src='/assets/slider17.png' alt='' /></a>
-               <a href='' id='Engagement' onClick={handleClick}> <img src='/assets/slider18.png' alt='' /></a>
-               <a href='' id='Post-Scheduler' onClick={handleClick}> <img src='/assets/slider19.png' alt='' /></a>
-               <a href='' id='Tweeter' onClick={handleClick}> <img src='/assets/slider20.png' alt='' /></a>
-               <a href='' id='MeFn' onClick={handleClick}> <img src='/assets/slider21.png' alt='' /></a>
-               <a href='' id='Disconnector' onClick={handleClick}> <img src='/assets/slider22.png' alt='' /></a>
+               <a target='_blank'  href='' id='Easy' onClick={handleClick}> <img src='/assets/slider16.png' alt='' /></a>
+               <a target='_blank'  href='' id='Groove' onClick={handleClick}> <img src='/assets/slider17.png' alt='' /></a>
+               <a target='_blank'  href='' id='Engagement' onClick={handleClick}> <img src='/assets/slider18.png' alt='' /></a>
+               <a target='_blank'  href='' id='Post-Scheduler' onClick={handleClick}> <img src='/assets/slider19.png' alt='' /></a>
+               <a target='_blank'  href='' id='Tweeter' onClick={handleClick}> <img src='/assets/slider20.png' alt='' /></a>
+               <a target='_blank'  href='' id='MeFn' onClick={handleClick}> <img src='/assets/slider21.png' alt='' /></a>
+               <a target='_blank'  href='' id='Disconnector' onClick={handleClick}> <img src='/assets/slider22.png' alt='' /></a>
                
             </div></SwiperSlide>
         <SwiperSlide>
         <div className='flex items-center justify-center gap-10'>
-               <a href='' id='Form' onClick={handleClick}> <img src='/assets/slider23.png' alt='' /></a>
-               <a href='' id='Wammy' onClick={handleClick}> <img src='/assets/slider24.png' alt='' /></a>
-               <a href='' id='Mad' onClick={handleClick}> <img src='/assets/slider25.png' alt='' /></a>
-               <a href='' id='Chicken' onClick={handleClick}> <img src='/assets/slider26.png' alt='' /></a>
-               <a href='' id='Monkey' onClick={handleClick}> <img src='/assets/slider27.png' alt='' /></a>
-               <a href='' id='Maps' onClick={handleClick}> <img src='/assets/slider28.png' alt='' /></a>
-               <a href='' id='Simple' onClick={handleClick}> <img src='/assets/slider29.png' alt='' /></a>
-               <a href='' id='GruFlu' onClick={handleClick}> <img src='/assets/slider30.png' alt='' /></a>
+               <a target='_blank'  href='' id='Form' onClick={handleClick}> <img src='/assets/slider23.png' alt='' /></a>
+               <a target='_blank'  href='' id='Wammy' onClick={handleClick}> <img src='/assets/slider24.png' alt='' /></a>
+               <a target='_blank'  href='' id='Mad' onClick={handleClick}> <img src='/assets/slider25.png' alt='' /></a>
+               <a target='_blank'  href='' id='Chicken' onClick={handleClick}> <img src='/assets/slider26.png' alt='' /></a>
+               <a target='_blank'  href='' id='Monkey' onClick={handleClick}> <img src='/assets/slider27.png' alt='' /></a>
+               <a target='_blank'  href='' id='Maps' onClick={handleClick}> <img src='/assets/slider28.png' alt='' /></a>
+               <a target='_blank'  href='' id='Simple' onClick={handleClick}> <img src='/assets/slider29.png' alt='' /></a>
+               <a target='_blank'  href='' id='GruFlu' onClick={handleClick}> <img src='/assets/slider30.png' alt='' /></a>
                
             </div>
         </SwiperSlide>
@@ -1000,9 +1000,9 @@ That is why, we at Tier5, lovingly call her our CHO - Chief Heart Officer.
 Aunkita is a motivational speaker and recipient of multiple achievers’ awards for her contribution towards the industry and the society at large.
 She is active on social network and you can get in touch with her directly.</p>
 <ul className='flex items-center gap-7 justify-center pt-7'>
-  <li><a href='https://www.facebook.com/aunkita.nandi'><img src='/assets/facebook.png'/></a></li>
-  <li><a href="https://www.linkedin.com/in/aunkita-nandi/"><img src='/assets/linkedin.png'/></a></li>
-  <li><a href="https://twitter.com/aunkitanandi"><img src='/assets/twitter.png'/></a></li>
+  <li><a target='_blank'  href='https://www.facebook.com/aunkita.nandi'><img src='/assets/facebook.png'/></a></li>
+  <li><a target='_blank'  href="https://www.linkedin.com/in/aunkita-nandi/"><img src='/assets/linkedin.png'/></a></li>
+  <li><a target='_blank'  href="https://twitter.com/aunkitanandi"><img src='/assets/twitter.png'/></a></li>
  
 </ul>
                             </div>
@@ -1012,8 +1012,8 @@ She is active on social network and you can get in touch with her directly.</p>
                                 <span>PR Specialist</span>
                                 <p>Rupanwita is the PR Specialist of the company. Her role is to share information and inputs about Tier5 to the media and general public at large. She has more than 12 years of eexperience in the similar role. A passionate believer, Rupanwita loves to spread happiness and positivity around her.</p>
 <ul className='flex items-center gap-7 justify-center pt-7'>
-  <li><a href="https://www.facebook.com/rupanwita/"><img src='/assets/facebook.png'/></a></li>
-  <li><a href="https://www.linkedin.com/in/rupanwita-roy-96003812/"><img src='/assets/linkedin.png'/></a></li>
+  <li><a target='_blank'  href="https://www.facebook.com/rupanwita/"><img src='/assets/facebook.png'/></a></li>
+  <li><a target='_blank'  href="https://www.linkedin.com/in/rupanwita-roy-96003812/"><img src='/assets/linkedin.png'/></a></li>
  
 </ul>
                             </div>
@@ -1024,8 +1024,8 @@ She is active on social network and you can get in touch with her directly.</p>
                                 <p>Ankita is the peoples’ person of Tier5.
 She has been an integral part of the company for the last 5 years and is responsible for taking care of daily HR operations and Administration of the company. Acting as a bridge between management and employees, coming across constructive solutions and resolving issues are the core areas of her work. She focuses on building relationships with employees and management for seamless coordination and bonding. This ever smiling lady strives to be an empathetic person rather than a sympathetic one.</p>
 <ul className='flex items-center gap-7 justify-center pt-7'>
-  <li><a href="https://www.facebook.com/ankita.d.angel"><img src='/assets/facebook.png'/></a></li>
-  <li><a href="https://www.linkedin.com/in/ankita-sarkar-127618105/"><img src='/assets/linkedin.png'/></a></li>
+  <li><a target='_blank'  href="https://www.facebook.com/ankita.d.angel"><img src='/assets/facebook.png'/></a></li>
+  <li><a target='_blank'  href="https://www.linkedin.com/in/ankita-sarkar-127618105/"><img src='/assets/linkedin.png'/></a></li>
  
 </ul>
                             </div>
@@ -1037,8 +1037,8 @@ She has been an integral part of the company for the last 5 years and is respons
                                 <span>General Manager</span>
                                 <p>Santanu has been with Tier5 since the very initial days. He specializes in setting the strategic direction and focuses on the sustainable growth of the company. He is creative, possesses experience and exposure in global perspective and very, very keen towards businesses and technologies fueling innovation. In short, he is the go to person for everyone at Tier5, who binds the team members of Tier5 in the same thread and ensures long term success of the company.</p>
 <ul className='flex items-center gap-7 justify-center pt-7'>
-  <li><a href="https://www.facebook.com/santanu.dhar.5"><img src='/assets/facebook.png'/></a></li>
-  <li><a href="https://www.linkedin.com/in/santanudhar/"><img src='/assets/linkedin.png'/></a></li>
+  <li><a target='_blank'  href="https://www.facebook.com/santanu.dhar.5"><img src='/assets/facebook.png'/></a></li>
+  <li><a target='_blank'  href="https://www.linkedin.com/in/santanudhar/"><img src='/assets/linkedin.png'/></a></li>
  
 </ul>
                             </div>
@@ -1051,8 +1051,8 @@ As the Product Manager, Senior Solution Architect and Operation Manager of the c
 Apart from his work, Abhisek is also known for his mentorship & witty one-liners in office.
 </p>
 <ul className='flex items-center gap-7 justify-center pt-7'>
-  <li><a href="https://www.facebook.com/iabhisekbosepm"><img src='/assets/facebook.png'/></a></li>
-  <li><a href="https://www.linkedin.com/in/abhisek-bose/"><img src='/assets/linkedin.png'/></a></li>
+  <li><a target='_blank'  href="https://www.facebook.com/iabhisekbosepm"><img src='/assets/facebook.png'/></a></li>
+  <li><a target='_blank'  href="https://www.linkedin.com/in/abhisek-bose/"><img src='/assets/linkedin.png'/></a></li>
  
 </ul>
                             </div>
@@ -1065,8 +1065,8 @@ A student of history from the University of Calcutta, Kaushik always found the s
 
  </p>
 <ul className='flex items-center gap-7 justify-center pt-7'>
-  <li><a href="https://www.facebook.com/ankita.d.angel"><img src='/assets/facebook.png'/></a></li>
-  <li><a href="https://www.linkedin.com/in/ankita-sarkar-127618105/"><img src='/assets/linkedin.png'/></a></li>
+  <li><a target='_blank'  href="https://www.facebook.com/ankita.d.angel"><img src='/assets/facebook.png'/></a></li>
+  <li><a target='_blank'  href="https://www.linkedin.com/in/ankita-sarkar-127618105/"><img src='/assets/linkedin.png'/></a></li>
  
 </ul>
                             </div>

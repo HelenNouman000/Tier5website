@@ -12,7 +12,9 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif !important;
 }
-
+ html , body{
+  background-color: #fff !important;
+ }
 @font-face {
   font-family:'Open Sans' ;
   src: url('../fonts/OpenSans-Light.ttf');

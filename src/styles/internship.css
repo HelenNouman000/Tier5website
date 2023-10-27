@@ -44,6 +44,17 @@
 font-size: 36px;
 font-weight: bold;
 margin-bottom: 18px;
+color: #000 !important;
+}
+.internship .testimonial > div > section .boxes .box > div:last-of-type span{
+    color: #000 !important;
+     font-weight: 400;
+}
+.boxpop span {
+    color: #000 !important;
+}
+.modal-box{
+    background-color: #fff !important;
 }
 .internship .testimonial > div > section  > p {
     color: #30353e;

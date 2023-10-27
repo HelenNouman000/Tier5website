@@ -24,7 +24,7 @@ function Partners() {
                     <p className='mb-4'>You get the opportunity to work directly with Tier5 and our amazing engineering team to build the software you need. Don't wait months for the features you want. Partners get it first.</p>
                     <p className='mb-20'>You also get 1 on 1 priority support from our support team and group training to help you grow and scale your company.</p>
 
-                    <a className='learn-more2' href='https://partnership.tier5.us'>Join The Tier5 Family</a>
+                    <a className='learn-more2' target='_blank' href='https://partnership.tier5.us'>Join The Tier5 Family</a>
                 </div>
                 <div className=' div-three'>
                 <img src='/assets/p5.png' alt='' />

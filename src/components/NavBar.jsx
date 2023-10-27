@@ -39,9 +39,9 @@ function NavBar() {
                    <h3>+1-3177512232</h3>
                </div>
                <ul className='flex items-center gap-7 justify-center pt-5'>
-     <li><a href='https://www.facebook.com/tier5development'><img src='/assets/facebookd.png'/></a></li>
-     <li><a href='https://www.linkedin.com/company/tier5-technology-solutions'><img src='/assets/linkedind.png'/></a></li>
-     <li><a href="https://www.youtube.com/watch?v=DlJwoQKzJYw&list=PLgwAAY-aCn6c7FDA4ssXmvrZyOVC6k0nR"><img src='/assets/youtubed.png'/></a></li>
+     <li><a target='_blank' href='https://www.facebook.com/tier5development'><img src='/assets/facebookd.png'/></a></li>
+     <li><a  target='_blank' href='https://www.linkedin.com/company/tier5-technology-solutions'><img src='/assets/linkedind.png'/></a></li>
+     <li><a target='_blank' href="https://www.youtube.com/watch?v=DlJwoQKzJYw&list=PLgwAAY-aCn6c7FDA4ssXmvrZyOVC6k0nR"><img src='/assets/youtubed.png'/></a></li>
     
    </ul>
            </div>

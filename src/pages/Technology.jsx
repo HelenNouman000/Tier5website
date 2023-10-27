@@ -12,7 +12,7 @@ function Technology() {
         <div className='text-center text-white mt-28 main-section'>
             <h2 className=' font-bold'>The Advancement in Technology</h2>
             <p>We are all aware that emerging technologies are changing the way we work and interact with others. So, why should we lag behind? By staying up to date on the latest trends gives us a better understanding of your business.</p>
-            <a href='https://partner.tier5.us/jrpartnership' className='learn-more2'>Learn more</a>
+            <a target='_blank' href='https://partner.tier5.us/jrpartnership' className='learn-more2'>Learn more</a>
         </div>
        </Container>
     </section>

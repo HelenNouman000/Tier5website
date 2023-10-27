@@ -243,7 +243,7 @@ const video13= 'https://www.youtube.com/embed/M8ExoshH2Vs?rel=0&autoplay=1&mute=
                <div>
                    <h3>How to Apply</h3>
                    <p>If you are interested in the internship you can enroll your name by clicking this button</p>
-                   <a className='learn-more2' href='https://www.cognitoforms.com/RecruitmentManager1/Tier5InternshipForm'>APPLY NOW</a>
+                   <a className='learn-more2' target='_blank' href='https://www.cognitoforms.com/RecruitmentManager1/Tier5InternshipForm'>APPLY NOW</a>
                </div>
            </section>
            </Container>

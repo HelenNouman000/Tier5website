@@ -29,7 +29,7 @@ Users Worldwide</h2>
 
             <div className='cardd'>
                 <p>
-                I actually saw Jon Vaughn's promo for text in bulk a while ago when he was selling it as a white label opportunity. It was one of those situations where, I'll just save this info somewhere and you forget where that info went. Since, then I have been ... <a href='https://www.facebook.com/tier5development'>Read More</a>
+                I actually saw Jon Vaughn's promo for text in bulk a while ago when he was selling it as a white label opportunity. It was one of those situations where, I'll just save this info somewhere and you forget where that info went. Since, then I have been ... <a target='_blank' href='https://www.facebook.com/tier5development'>Read More</a>
                 </p>
                 <span>Guy Purdy, via Facebook</span>
 

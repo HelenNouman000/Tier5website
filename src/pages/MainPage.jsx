@@ -9,13 +9,25 @@ import NavBar from '../components/NavBar';
 function MainPage() {
 const [sideMenu , setSide] = useState(false);
 const [prod , setProd] = useState('Chirply');
+const [pointer , setPointer] = useState('chir');
 // const menu = document.getElementById('#menu');
+const items = document.querySelectorAll('.dy-items a');
+console.log(items);
+// items[0].classList.add(pointer);
 const handleClick = (e) => {
   e.preventDefault();
 
   setProd(e.currentTarget.id);
+setPointer(e.currentTarget.getAttribute('data-name'));
+// items.forEach(item => {
+//   item.classList.remove(pointer);
+//   console.log(item);
+//   console.log(item.classList.remove(pointer));
+// });
 
 }
+console.log(pointer);
+console.log(items);
 
   return (
     <section className='mainpage'>
@@ -48,34 +60,34 @@ const handleClick = (e) => {
         <section className='ex-up'>
          <h3 className='ex-header'>Experience our Software </h3>
           <p className='ex-parag pb-5'>Stay on the cutting edge with new solutions, customers haven’t seen before. Experience our supremely innovative and remarkably effective software's.</p>
-          <a className='learn-more-btn' href='https://partner.tier5.us/jrpartnership'>Learn More</a>
+          <a className='learn-more-btn' target='_blank' href='https://partner.tier5.us/jrpartnership'>Learn More</a>
          </section>
          <section className='dy-items item-list flex items-center gap-4 justify-between mt-24'>
-          <a className='item cursor-pointer' id='Chirply' onClick={handleClick} style={{width: 'fit-content'}}>
+          <a   data-name='chir'   className={`item cursor-pointer ${pointer == 'chir' ? 'chir' : ''} `} id='Chirply' onClick={handleClick} style={{width: 'fit-content'}}>
             <img src='/assets/5fe6444d16fda_ch.png' alt='' />
             <h5 className='mt-4'>Chirply</h5>
           </a>
-          <a className='item cursor-pointer' id='Domain' onClick={handleClick} style={{width: 'fit-content'}}>
+          <a data-name='dom' className={`item cursor-pointer ${pointer == 'dom' ? 'dom' : ''} `} id='Domain' onClick={handleClick} style={{width: 'fit-content'}}>
             <img src='/assets/5fe64478bec45_dl.png' alt='' />
             <h5 className='mt-4'>Domain Leads</h5>
           </a>
-          <a className='item cursor-pointer' id='Magic' onClick={handleClick} style={{width: 'fit-content'}}>
+          <a data-name='mag' className={`item cursor-pointer ${pointer == 'mag' ? 'mag' : ''} `} id='Magic' onClick={handleClick} style={{width: 'fit-content'}}>
             <img src='/assets/5fe644906771f_mz.png' alt='' />
             <h5 className='mt-4'>Magic Zap</h5>
           </a>
-          <a className='item cursor-pointer' id='Invoicing' onClick={handleClick} style={{width: 'fit-content'}}>
+          <a data-name='inv' className={`item cursor-pointer ${pointer == 'inv' ? 'inv' : ''} `} id='Invoicing' onClick={handleClick} style={{width: 'fit-content'}}>
             <img src='/assets/5fe644adabddf_iy.png' alt='' />
             <h5 className='mt-4'>Invoicing You</h5>
           </a>
-          <a className='item cursor-pointer' id='Sticky' onClick={handleClick} style={{width: 'fit-content'}}>
+          <a data-name='sti' className={`item cursor-pointer ${pointer == 'sti' ? 'sti' : ''} `} id='Sticky' onClick={handleClick} style={{width: 'fit-content'}}>
             <img src='/assets/5fe644c17751d_sr.png' alt='' />
             <h5 className='mt-4'>Sticky Reviews</h5>
           </a>
-          <a className='item cursor-pointer' id='Robo' onClick={handleClick} style={{width: 'fit-content'}}>
+          <a data-name='rob' className={`item cursor-pointer ${pointer == 'rob' ? 'rob' : ''} `} id='Robo' onClick={handleClick} style={{width: 'fit-content'}}>
             <img src='/assets/5fe644f7a19be_rc (1).png' alt='' />
             <h5 className='mt-4'>Robo Contact</h5>
           </a>
-          <a className='item cursor-pointer' id='Link' onClick={handleClick} style={{width: 'fit-content'}}>
+          <a data-name='lin' className={`item cursor-pointer ${pointer == 'lin' ? 'lin' : ''} `} id='Link' onClick={handleClick} style={{width: 'fit-content'}}>
             <img src='/assets/5fe6450f83c4b_lw.png' alt='' />
             <h5 className='mt-4'>Link Wizard</h5>
           </a>
@@ -228,7 +240,7 @@ const handleClick = (e) => {
   <h2>Trusted by <b>15000+</b> business owners</h2>
 <p>Tier5 has proved to be devoted & incorruptible by successful entrepreneurs, market leaders and startup companies globally  for it's spirituous and high  serviceable software's, user-friendly products, dependable customer support and the zeal for upgrading themselves to raise standards. </p>
 <img src='/assets/6151a8e113aee_aaaa.png' alt='' />
-<a className='learn-more-btn' href='https://partnership.tier5.us'>Learn more</a>
+<a className='learn-more-btn' target='_blank' href='https://partnership.tier5.us'>Learn more</a>
   </section>
       </Container>
       <img src='/assets/5ff21b8761e92_graphic_home_.png' alt='' className='leftSideImg' />
@@ -245,7 +257,7 @@ const handleClick = (e) => {
             <img src='/assets/5ff1f3b3ee46a_download.png' alt='' />
             <h3 className='part-header'>Become a <b>Partner</b></h3>
             <p className='mb-12'>You will actually own a part of Tier5 and <b>once you are a partner of Tier5, you start earning</b>.</p>
-            <a className='sec-btn mt-5 py-3 px-16' href='https://partnership.tier5.us'>I'm intersted</a>
+            <a className='sec-btn mt-5 py-3 px-16' target='_blank' href='https://partnership.tier5.us'>I'm intersted</a>
         </section>
       </section>
     </Container>
